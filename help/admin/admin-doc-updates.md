@@ -2,30 +2,30 @@
 description: 按日期显示《Audience Manager 管理指南》的所有更新（内容添加、删除和更正）。
 seo-description: All updates (additions, deletions, and corrections) to the Audience Manager Admin Guide, by date.
 seo-title: Documentation Updates
-title: 年文档更新
+title: 文档更新
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
 exl-id: 8221b4df-99c2-47d3-a2ea-186a701a2b20
 source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '583'
 ht-degree: 94%
 
 ---
 
-# 年文档更新 {#documentation-updates}
+# 文档更新 {#documentation-updates}
 
 按日期显示《Audience Manager 管理指南》的所有更新（内容添加、删除和更正）。
 
-有关功能发布、增强和错误修复的信息，请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)。对象 [!DNL Audience Manager] 文档更改，请参阅 [文档更新](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en).
+有关功能发布、增强和错误修复的信息，请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)。有关[!DNL Audience Manager]文档更改，请参阅[文档更新](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en)。
 
-## AAM 2019 年文档更新 {#aam-2019-docs-updates}
+## AAM 2019年文档更新 {#aam-2019-docs-updates}
 
 | 主题 | 描述 |
 |--- |--- |
 | HTTP 格式宏 | 我们向 `USER_LIST` 宏添加了一个新宏 `REGION_ID_LIST` 以及三个新字段 `sda`、`sda` 和 `sda`。 |
 | HTTP 格式宏 | 我们添加了两个新宏：`ECID` 和 `MCID`。 |
 
-## AAM 2018 年文档更新 {#aam-2018-docs-updates}
+## AAM 2018年文档更新 {#aam-2018-docs-updates}
 
 <!-- c_doc_updates.xml -->
 
@@ -52,7 +52,7 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-## AAM 2017 年文档更新 {#aam-2017-docs-updates}
+## AAM 2017年文档更新 {#aam-2017-docs-updates}
 
 <table id="table_81D2DA9293A9417085C630D00A7C96E1"> 
  <thead> 
@@ -105,7 +105,7 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-## AAM 2016 年文档更新 {#aam-2016-docs-updates}
+## AAM 2016年文档更新 {#aam-2016-docs-updates}
 
 <table id="table_E9D9810EA8244B58A4F27D56CFE521FD"> 
  <thead> 
@@ -145,7 +145,7 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-## AAM 2015 年文档更新 {#aam-2015-docs-updates}
+## AAM 2015年文档更新 {#aam-2015-docs-updates}
 
 <table id="table_90F524BAAED44A45A1F6BF8BBA9F26F9"> 
  <thead> 
@@ -162,7 +162,7 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-## AAM 2014 年文档更新 {#aam-2014-docs-updates}
+## AAM 2014年文档更新 {#aam-2014-docs-updates}
 
 <table id="table_FA9962E19248418BA73D5A794A378C9D"> 
  <thead> 

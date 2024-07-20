@@ -7,8 +7,8 @@ uuid: 67a19fb2-8322-47ce-afa4-f6b78c52f814
 exl-id: dd6d04ef-895a-4bd7-bf9d-851e2fdcb594
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 3%
+source-wordcount: '286'
+ht-degree: 1%
 
 ---
 
@@ -18,29 +18,29 @@ ht-degree: 3%
 
 <!-- t_company_limits.xml -->
 
-1. 单击 **[!UICONTROL Companies]**，然后找到并单击所需的公司以显示其 [!UICONTROL Profile] 页面。 使用 [!UICONTROL Search] 框或列表底部的分页控件以查找所需的公司。 您可以通过单击所需列的标题，按升序或降序对每个列进行排序。
-1. 单击 **[!UICONTROL Limits]** 选项卡。
+1. 单击&#x200B;**[!UICONTROL Companies]**，然后找到并单击所需的公司以显示其[!UICONTROL Profile]页面。 使用列表底部的[!UICONTROL Search]框或分页控件查找所需的公司。 您可以通过单击所需列的标题，按升序或降序对每个列进行排序。
+1. 单击&#x200B;**[!UICONTROL Limits]**&#x200B;选项卡。
 1. 填写以下字段：
 
    >[!NOTE]
    >
-   >如果有任何字段为空，则当前默认值为无限制。 所有字段都是独立的。 例如，在 [!UICONTROL Trait Limits] 部分，可以为以下项指定100 [!UICONTROL Total Traits] 对于其他特征类型，为100。 总和 [!UICONTROL Max Number of Algorithmic Traits]， [!UICONTROL Max Number or Rule Based Traits]、和 [!UICONTROL Max Number of Onboarded Traits] 不等于 [!UICONTROL Total Number].
+   >如果有任何字段为空，则当前默认值为无限制。 所有字段都是独立的。 例如，在[!UICONTROL Trait Limits]部分中，您可以为[!UICONTROL Total Traits]指定100，为其他特征类型指定100。 [!UICONTROL Max Number of Algorithmic Traits]、[!UICONTROL Max Number or Rule Based Traits]和[!UICONTROL Max Number of Onboarded Traits]的总和不等于[!UICONTROL Total Number]。
 
-   * **[!UICONTROL Trait Folder Limits]**：指定 [!UICONTROL Trait Folder] 此公司的限制：
-      * **[!UICONTROL Max number of Trait Folders]**：指定最大数量 [!UICONTROL Trait Folders] 这家公司可以拥有。
-      * **[!UICONTROL Max depth of Trait Folders]**：指定公司的最大深度 [!UICONTROL Trait Folder] 结构可以有。
+   * **[!UICONTROL Trait Folder Limits]**：指定此公司的[!UICONTROL Trait Folder]限制：
+      * **[!UICONTROL Max number of Trait Folders]**：指定此公司可以拥有的最大数量[!UICONTROL Trait Folders]。
+      * **[!UICONTROL Max depth of Trait Folders]**：指定公司的[!UICONTROL Trait Folder]结构可以具有的最大深度。
    * **[!UICONTROL AlgoModel Limits]**：指定此公司的算法限制：
-      * **[!UICONTROL Total Number]**：指定该公司可以拥有的算法特征总数。
+      * **[!UICONTROL Total Number]**：指定此公司可以拥有的算法特征总数。
    * **[!UICONTROL Segment Limits]**：指定此公司的区段限制：
-      * **[!UICONTROL Total Number]**：指定该公司可以拥有的区段总数。
+      * **[!UICONTROL Total Number]**：指定此公司可以拥有的区段总数。
    * **[!UICONTROL Destinations Limits]**：指定此公司的目标限制：
       * **[!UICONTROL Total Number]**：指定此公司可以拥有的目标总数。
-      * **[!UICONTROL Max Number of URL Destinations]**：指定该公司可以拥有的最大URL目标数。
-      * **[!UICONTROL Max Number of AdServer Destinations]**：指定最大数量 [!UICONTROL AdServer] 此公司可以拥有的目标。
-      * **[!UICONTROL Max Number of S2S Destinations]**：指定该公司可以拥有的最大S2S目标数。
+      * **[!UICONTROL Max Number of URL Destinations]**：指定此公司可以拥有的最大URL目标数。
+      * **[!UICONTROL Max Number of AdServer Destinations]**：指定此公司可以拥有的[!UICONTROL AdServer]目标的最大数目。
+      * **[!UICONTROL Max Number of S2S Destinations]**：指定此公司可以拥有的最大S2S目标数。
    * **[!UICONTROL Trait Limits]**：指定此公司的特征限制：
       * **[!UICONTROL Total Number]**：指定此公司可以具有的特征总数。
-      * **[!UICONTROL Max Number of Algorithmic Traits]**：指定此公司可以拥有的算法特征的最大数量。
-      * **[!UICONTROL Max Number of Rule Based Traits]**：指定该公司可以拥有的基于规则的特征的最大数量。
-      * **[!UICONTROL Max Number of Onboarded Traits]**：指定该公司可以具有的已载入特征的最大数量。
-1. 单击 **[!UICONTROL Save]**.
+      * **[!UICONTROL Max Number of Algorithmic Traits]**：指定此公司可以具有的最大算法特征数。
+      * **[!UICONTROL Max Number of Rule Based Traits]**：指定此公司可以拥有的基于规则的特征的最大数量。
+      * **[!UICONTROL Max Number of Onboarded Traits]**：指定此公司可以拥有的已载入特征的最大数量。
+1. 单击 **[!UICONTROL Save]**。

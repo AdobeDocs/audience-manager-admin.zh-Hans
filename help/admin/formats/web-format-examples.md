@@ -2,21 +2,21 @@
 description: 一些常用的HTTP宏组合示例。
 seo-description: Examples of some commonly used HTTP macro combinations.
 seo-title: HTTP Format Macro Examples
-title: HTTP 格式宏示例
+title: HTTP格式宏示例
 uuid: a81a2e2a-de7e-4b6a-8771-fcfa0dc74570
 exl-id: 1f8ccbf3-241d-4bd9-8c35-cf68b12d2713
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '66'
-ht-degree: 15%
+ht-degree: 3%
 
 ---
 
-# HTTP 格式宏示例 {#http-format-macro-examples}
+# HTTP格式宏示例 {#http-format-macro-examples}
 
-一些常用示例 [!DNL HTTP] 宏组合。
+一些常用的[!DNL HTTP]宏组合示例。
 
-请参阅 [HTTP格式宏](../formats/web-formats.md) 以获取宏及其定义的列表。
+有关宏及其定义的列表，请参阅[HTTP格式宏](../formats/web-formats.md)。
 
 <table id="table_D5FAC5D056ED49D79FA883197EF8F42E"> 
  <thead> 
@@ -137,7 +137,7 @@ ht-degree: 15%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>&lt;if(user.segments &amp;&amp; user.removedSegments)&gt;&lt;COMMA&gt;&lt;endif&gt;</code> </p> </td> 
-   <td colname="col2"> <p>如果字段为，打印逗号 <code>segments</code> 和 <code>removedSegments</code> 不为空。 在连接区段列表和删除的区段时，此条件可用于POST请求。 </p> </td> 
+   <td colname="col2"> <p>如果字段<code>segments</code>和<code>removedSegments</code>不为空，则打印逗号。 在连接区段列表和删除的区段时，此条件可用于POST请求。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,23 +8,23 @@ exl-id: 1df9dc2e-b75d-4ee1-9ec6-9abbdad41f0c
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
 # 删除服务器 {#delete-a-server}
 
-使用 [!UICONTROL Servers] “Audience Manager管理”工具中的页面来删除现有服务器。
+使用Audience Manager管理工具中的[!UICONTROL Servers]页删除现有服务器。
 
 <!-- t_delete_server.xml -->
 
 >[!NOTE]
 >
->您必须拥有 [!UICONTROL DEXADMIN] 角色以删除现有服务器。
+>要删除现有服务器，您必须具有[!UICONTROL DEXADMIN]角色。
 
-1. 要删除现有服务器，请单击 **[!UICONTROL Servers]**.
+1. 要删除现有服务器，请单击&#x200B;**[!UICONTROL Servers]**。
 
    ![步骤结果](assets/servers.png)
 
-1. 单击  ![](assets/icon_delete.png) 在 **[!UICONTROL Actions]** 列。
-1. 单击 **[!UICONTROL OK]** 以确认删除。
+1. 在所需服务器的&#x200B;**[!UICONTROL Actions]**&#x200B;列中单击![](assets/icon_delete.png)。
+1. 单击&#x200B;**[!UICONTROL OK]**&#x200B;以确认删除。

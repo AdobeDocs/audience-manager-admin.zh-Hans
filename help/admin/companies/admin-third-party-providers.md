@@ -8,7 +8,7 @@ exl-id: b4bcf543-3769-4cb5-af96-7d60055376b8
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 4%
 
 查看或编辑第三方数据提供商的容器和映射。 您还可以启用与不同数据提供商的共享。
 
-1. 单击 **[!UICONTROL Companies]**，然后找到并单击所需的公司以显示其 [!UICONTROL Profile] 页面。
+1. 单击&#x200B;**[!UICONTROL Companies]**，然后找到并单击所需的公司以显示其[!UICONTROL Profile]页面。
 
-   使用 [!UICONTROL Search] 框或列表底部的分页控件以查找所需的公司。 您可以通过单击所需列的标题，按升序或降序对每个列进行排序。
-1. 单击 **[!UICONTROL Third Party Data Providers]** 选项卡。
+   使用列表底部的[!UICONTROL Search]框或分页控件查找所需的公司。 您可以通过单击所需列的标题，按升序或降序对每个列进行排序。
+1. 单击&#x200B;**[!UICONTROL Third Party Data Providers]**&#x200B;选项卡。
 
    ![](assets/third_party_providers.png)
 
@@ -27,14 +27,14 @@ ht-degree: 4%
 
    ![步骤结果](assets/third_party_providers_edit.png)
 
-1. 选择 **[!UICONTROL Enable Sharing]** 启用以下选项：
+1. 选择&#x200B;**[!UICONTROL Enable Sharing]**&#x200B;以启用以下选项：
 
    * **合作伙伴级别重叠：**
-   * **模型使用已启用：** 允许该公司在创建算法模型时使用此数据提供程序。
+   * **模型使用已启用：**&#x200B;允许该公司在创建算法模型时使用此数据提供程序。
 
    启用共享后，您将从此数据提供程序获得对特征的访问权限。
 
 1. （视情况而定）如果此提供程序启用了容器，则可以通过将所需容器从可用列表移动到选定列表来选择此数据提供程序的容器。
 
-   您还可以从以下位置执行此任务 [容器](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967) 页面。
-1. 单击 **[!UICONTROL Save]** 如果您进行了更改。
+   您还可以从[容器](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967)页面执行此任务。
+1. 如果您进行了更改，请单击&#x200B;**[!UICONTROL Save]**。

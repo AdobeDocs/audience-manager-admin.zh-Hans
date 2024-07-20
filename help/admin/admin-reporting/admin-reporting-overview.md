@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 报表 {#reporting}
 
-通过创建新报告或编辑或删除现有报告来管理Audience Manager报告。 您还可以将门户用户分配为 [!DNL Tableau] 用户。
+通过创建新报告或编辑或删除现有报告来管理Audience Manager报告。 您还可以将门户用户分配为[!DNL Tableau]用户。
 
 <!-- c_reporting.xml -->
 
@@ -22,4 +22,4 @@ ht-degree: 2%
 
 您可以通过单击所需列的标题，按升序或降序对每个列进行排序。
 
-使用 [!UICONTROL Search] 框或列表底部的分页控件以查找所需的报表。
+使用列表底部的[!UICONTROL Search]框或分页控件查找所需的报告。
