@@ -5,7 +5,7 @@ seo-title: Create or Edit an FTP Server
 title: 创建或编辑FTP服务器
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 exl-id: 9eae4ecf-ccde-483a-ae53-1cbac033d8d6
-source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
+source-git-commit: 8af040e49b881302315e0b66baa73db47c5eee28
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
@@ -41,7 +41,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >请记得将我们的出口[!DNL FTP] [!DNL IP]添加到您的允许IP列表中： **52.44.29.204**。
+   >请记得将我们的出口[!DNL FTP] [!DNL IP]添加到您的允许IP列表中： **54.204.116.43**。
 
 1. 对于&#x200B;**[!UICONTROL SSH Key]**&#x200B;身份验证：
    >[!NOTE]
