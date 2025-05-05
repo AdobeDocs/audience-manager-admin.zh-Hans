@@ -89,7 +89,7 @@ ht-degree: 3%
 >
 >有关在管理员UI中创建目标的详细演练，请参阅[创建或编辑公司目标](companies/admin-manage-company-destinations.md#create-edit-company-destinations)文章。
 
-您的客户希望导出不同的ID类型，具体取决于目标。 下图显示了导出与不同ID类型相关的配置文件信息时应选择的选项。 我们建议您也参考Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en)中的[ID索引。 需要考虑三个重要设置：[!UICONTROL User ID Key]、[!UICONTROL Data Source Type]和[!UICONTROL Format]。 我们将在下面详细介绍所有这些功能。
+您的客户希望导出不同的ID类型，具体取决于目标。 下图显示了导出与不同ID类型相关的配置文件信息时应选择的选项。 我们建议您也参考Audience Manager[&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en)中的ID索引。 需要考虑三个重要设置：[!UICONTROL User ID Key]、[!UICONTROL Data Source Type]和[!UICONTROL Format]。 我们将在下面详细介绍所有这些功能。
 
 * [!UICONTROL User ID Key]。在[!UICONTROL Admin UI]中，转到&#x200B;**[!UICONTROL Companies]**。 搜索客户的公司并单击它。 查找&#x200B;**[!UICONTROL Destinations]**&#x200B;选项卡并按&#x200B;**[!UICONTROL Add Destination]**。 在&#x200B;**[!UICONTROL Add Destination]**&#x200B;工作流中选择[!UICONTROL User ID Key]。 [!UICONTROL User ID Key]将筛选来自目标数据源的传入ID，只允许这些ID通过。
 
