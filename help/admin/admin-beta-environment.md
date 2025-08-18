@@ -8,7 +8,7 @@ uuid: 6a253f4e-96e7-4395-a783-a8eb213b7daf
 exl-id: 78d5a1ff-c016-4366-ba34-9814a0d92067
 source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
@@ -39,18 +39,18 @@ ht-degree: 2%
 1. 使用&#x200B;[**SKMS请求技术运营帮助**](https://skms.adobe.com/)功能。
 1. 在左侧导航边栏中转到&#x200B;**[!UICONTROL Request TechOps Help]**。
 1. 在&#x200B;**[!UICONTROL Request Search]**&#x200B;中，在搜索字段中键入Audience Manager。
-1. 在搜索结果中向下滚动并单击&#x200B;**Audience Manager- S3入站/出站帐户设置**。
-1. 填写配置窗口中的字段，并在&#x200B;**[!UICONTROL Environment]**&#x200B;字段中指定&#x200B;**沙盒环境**。
+1. 在搜索结果中向下滚动，然后单击&#x200B;**Audience Manager - S3入站/出站帐户配置**。
+1. 填写配置窗口中的字段，并在&#x200B;**字段中指定**&#x200B;沙盒环境&#x200B;**[!UICONTROL Environment]**。
 
 >[!NOTE]
 >
->我们不鼓励使用[!DNL FTP/SFTP]并鼓励使用[!UICONTROL Amazon S3]。 [Amazon S3：About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=zh-Hans)中列出了我们鼓励使用[!UICONTROL Amazon S3]的原因。
+>我们不鼓励使用[!DNL FTP/SFTP]并鼓励使用[!UICONTROL Amazon S3]。 [!UICONTROL Amazon S3]Amazon S3[:About中列出了我们鼓励使用](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html)的原因。
 
 ## 在Beta环境中访问DCS {#access-dcs-beta-environment}
 
 要在测试版环境中访问[!UICONTROL DCS]，请执行以下操作：
 
-1. 使用[!DNL curl] [命令](https://curl.haxx.se/docs/manpage.html)进行[!UICONTROL DCS]调用。 [!DNL Curl]是一种使用多种支持的协议之一来将数据从服务器传输或传输到服务器的工具。
+1. 使用[!UICONTROL DCS] [!DNL curl]命令[进行](https://curl.haxx.se/docs/manpage.html)调用。 [!DNL Curl]是一种使用多种支持的协议之一来将数据从服务器传输或传输到服务器的工具。
 
    例如：`curl -v https://dcs-beta.demdex.net/event`
 

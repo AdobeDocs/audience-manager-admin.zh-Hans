@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- t_company_destinations.xml -->
 
-有关详细信息，请参阅&#x200B;*Audience Manager用户指南*&#x200B;中的[目标](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=zh-Hans)。
+有关详细信息，请参阅[Audience Manager用户指南](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html)中的&#x200B;*目标*。
 
 ## 创建或编辑公司目标 {#create-edit-company-destinations}
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 >
 >对于[!UICONTROL Bulk ID]目标类型，不能使用[!DNL Audience Manager] [!UICONTROL User ID]或[!DNL Adobe Experience Cloud] ID。
 
-如果您的数据源ID ([!UICONTROL DPID])未显示在下拉列表中，则必须选中[数据Source设置页面](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=zh-Hans)上的数据源级别的&#x200B;**[!UICONTROL Outbound]**&#x200B;复选框。
+如果您的数据源ID ([!UICONTROL DPID])未显示在下拉列表中，则必须选中&#x200B;**[!UICONTROL Outbound]**&#x200B;数据Source设置页面[上的数据源级别的](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html)复选框。
 
 * **[!UICONTROL Target Data Source]：**（必需）从下拉列表中选择此目标所需的数据源。 此设置允许标记出站数据，允许将出站数据摄取到客户端的单独系统中。
 * **[!UICONTROL Foreign Account ID]：**&#x200B;指定此目标的外部帐户ID。 这是收件人系统中此出站数据的标识值。
@@ -85,7 +85,7 @@ ht-degree: 0%
    * **[!UICONTROL S3]**
 * **[!UICONTROL Servers]**：（必需）从下拉列表中选择此目标所需的服务器。
 * **[!UICONTROL Format]**：（必需）根据以上选择的协议，从下拉列表中选择此目标的所需格式： [!DNL HTTP]或文件类型。
-* **[!UICONTROL Sync Type]**： （必需）为此目标选择所需的同步类型。 这表示客户端要包含在出站订单中的用户活动级别。 如果客户端只想从其属性分析区段资格，请选择&#x200B;**[!UICONTROL Customer]**。 如果他们想要在所有[!DNL Audience Manager]客户中包含来自站外活动的区段资格，请选择&#x200B;**[!UICONTROL Platform]**。
+* **[!UICONTROL Sync Type]**： （必需）为此目标选择所需的同步类型。 这表示客户端要包含在出站订单中的用户活动级别。 如果客户端只想从其属性分析区段资格，请选择&#x200B;**[!UICONTROL Customer]**。 如果他们想要在所有&#x200B;**[!UICONTROL Platform]**&#x200B;客户中包含来自站外活动的区段资格，请选择[!DNL Audience Manager]。
 * **[!UICONTROL Customer]**：文件包含的活动用户仅在选定时间段的客户端属性（与客户端的[!UICONTROL PID]关联）上实现至少1个特征。 您的客户应使用此选项将其&#x200B;*实时*&#x200B;区段资格出站到目标。
 * **[!UICONTROL Platform]**：文件包含的活动用户至少在1个实时交互中，无论是ID同步还是特征实现，在选定时间段内，在所有[!DNL Audience Manager]客户端属性（与所有客户端PID关联）中的任何位置。 您的客户应使用此选项将其总计&#x200B;*个*&#x200B;区段资格出站到目标。
 * **[!UICONTROL Lifetime]**：文件包含自目标创建以来在所有[!DNL Audience Manager]客户端属性中看到的活动用户。
@@ -129,7 +129,7 @@ I removed {importance="high"} from note for Exp League rendering. -Bob
 要删除目标，请执行以下操作：
 
 1. 单击&#x200B;**[!UICONTROL Companies]**，找到并单击所需的公司，然后单击&#x200B;**[!UICONTROL Destinations]**&#x200B;选项卡。
-1. 在所需目标的&#x200B;**[!UICONTROL Actions]**&#x200B;列中单击![](assets/icon_delete.png)。
+1. 在所需目标的![](assets/icon_delete.png)列中单击&#x200B;**[!UICONTROL Actions]**。
 1. 单击&#x200B;**[!UICONTROL OK]**&#x200B;以确认删除。
 
 >[!NOTE]

@@ -105,7 +105,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>CLOSE_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>插入一个右花括号<code>&rbrace;</code>字符。 </p> </td> 
+   <td colname="col2"> <p>插入一个右花括号<code>}</code>字符。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>COMMA</code> </p> </td> 
@@ -113,7 +113,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="term">数据合作伙伴唯一用户标识符</span>。 返回分配给用户/网站访客的ID(如果已与<span class="keyword">Audience Manager</span>设备ID同步)。 </p> <p>如果DPID为0，则此宏将返回<span class="keyword">Audience Manager</span> ID，而不是用户的用户ID。 </p> </td> 
+   <td colname="col2"> <p> <span class="term">数据合作伙伴唯一用户标识符</span>。 返回分配给用户/网站访客的ID(如果该ID已与<span class="keyword"> Audience Manager </span>设备ID同步)。 </p> <p>如果DPID为0，则此宏将返回<span class="keyword"> Audience Manager </span> ID，而不是您用户的ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID_LIST</code> </p> </td> 
@@ -137,7 +137,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>插入左花括号<code>&lbrace;</code>字符。 </p> </td> 
+   <td colname="col2"> <p>插入左花括号<code>{</code>字符。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 
@@ -186,7 +186,7 @@ ht-degree: 1%
      <li id="li_859E1F4F21D645519F150DC512B3EB1A"> <code>type</code>：由数字ID标识的特征类型。 此变量会返回： 
       <ul id="ul_C9839266783D42CCADAAC3FEA33BE4D7"> 
        <li id="li_6996A218E3F04EC3BC70032559DD87FC"> <code>10</code>标识DPM特征（脱机，由入站作业载入）。 </li> 
-       <li id="li_831FF929BF50434C8804C13E5786DF79"> 标识基于规则的特征（实时，；通过<span class="wintitle"> DCS </span>上载）的<code>3</code>。 </li> 
+       <li id="li_831FF929BF50434C8804C13E5786DF79"> 标识基于规则的特征（实时，；通过<code>3</code> DCS <span class="wintitle">上载）的</span>。 </li> 
       </ul> </li> 
      <li id="li_E84D6BC80AEE4F10963C9882C4151ED4"> <code>traitId</code>：特征标识。 </li> 
      <li id="li_D30A849BA35248E6B9110FA3ADEFC332"> <code>lastRealized</code>：上次实现该特征的时间。 Unix时间戳。 </li> 
@@ -194,7 +194,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">Audience Manager</span>用户ID。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span>用户ID。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

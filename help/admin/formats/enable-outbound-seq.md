@@ -22,4 +22,4 @@ ht-degree: 0%
 1. 在&#x200B;**[!UICONTROL Edit Destinations]**&#x200B;界面中，向下滚动到&#x200B;**[!UICONTROL Batch Data]**。
 1. 选择协议： **[!UICONTROL FTP]**&#x200B;或&#x200B;**[!UICONTROL S3]**。
 1. 选择格式： **[!UICONTROL AAM-Outbound-SEQ (415)]**。
-1. 单击页面底部的&#x200B;**[!UICONTROL Save]**&#x200B;进行确认。 客户现在可以将Hadoop顺序文件发送到目标。
+1. 单击页面底部的&#x200B;**[!UICONTROL Save]**&#x200B;进行确认。 客户现在可以将Hadoop序列文件发送到目标。

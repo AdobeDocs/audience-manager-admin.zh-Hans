@@ -1,5 +1,5 @@
 ---
-description: 使用“Audience Manager管理”工具中的“服务器”页可创建新的S3服务器或编辑现有服务器。
+description: 使用Audience Manager管理工具中的“服务器”页面可创建新的S3服务器或编辑现有服务器。
 seo-description: Use the Servers page in the Audience Manager Admin tool to create a new S3 server or to edit an existing server.
 seo-title: Create or Edit an S3 Server
 title: 创建或编辑S3服务器
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 创建或编辑S3服务器 {#create-or-edit-an-s-server}
 
-使用Audience Manager管理工具中的[!UICONTROL Servers]页创建新的[!DNL S3]服务器或编辑现有服务器。
+使用Audience Manager管理工具中的[!UICONTROL Servers]页面创建新[!DNL S3]服务器或编辑现有服务器。
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >我们建议使用[!DNL Amazon S3]作为从合作伙伴获取文件并将文件传递给合作伙伴的方法。 [!DNL Amazon S3]提供了一个简单的Web服务界面，可用于随时随地从Web上存储和检索任意数量的数据。 有关详细信息，请参阅&#x200B;*Audience Manager用户指南*&#x200B;中的[关于Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=zh-Hans)。
+   >我们建议使用[!DNL Amazon S3]作为从合作伙伴获取文件并将文件传递给合作伙伴的方法。 [!DNL Amazon S3]提供了一个简单的Web服务界面，可用于随时随地从Web上存储和检索任意数量的数据。 有关详细信息，请参阅[Amazon用户指南](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html)中的&#x200B;*关于Audience Manager S3*。
 
 1. 填写以下字段：
 

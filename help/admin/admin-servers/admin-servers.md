@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 服务器概述 {#servers-overview}
 
-使用[!UICONTROL Servers]页可查看Audience Manager配置中的服务器列表。 只要分配了相应的用户角色，就可以编辑或删除现有服务器或创建新服务器。
+使用[!UICONTROL Servers]页面查看Audience Manager配置中的服务器列表。 只要分配了相应的用户角色，就可以编辑或删除现有服务器或创建新服务器。
 
 <!-- c_servers.xml -->
 

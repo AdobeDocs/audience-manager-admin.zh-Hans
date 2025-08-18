@@ -1,5 +1,5 @@
 ---
-description: 使用“Audience Manager管理”工具中的“格式”页可创建新格式或编辑现有格式。
+description: 使用Audience Manager管理工具中的“格式”页面可创建新格式或编辑现有格式。
 seo-description: Use the Formats page in the Audience Manager Admin tool to create a new format or to edit an existing format.
 seo-title: Create or Edit a Format
 title: 创建或编辑格式
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # 创建或编辑格式 {#create-or-edit-a-format}
 
-使用Audience Manager管理工具中的[!UICONTROL Formats]页创建新格式或编辑现有格式。
+使用Audience Manager管理工具中的[!UICONTROL Formats]页面创建新格式或编辑现有格式。
 
 <!-- t_create_format.xml -->
 
@@ -43,7 +43,7 @@ ht-degree: 1%
    * **[!UICONTROL Data Row]：**&#x200B;指定在文件的每个出站行中显示的文本。
    * **[!UICONTROL Maximum File Size (In MB)]：**&#x200B;指定数据传输文件的最大文件大小。 压缩文件必须小于100 MB。 未压缩文件大小没有限制。
    * **[!UICONTROL Compression]：**&#x200B;为您的数据文件选择所需的压缩类型： gz或zip。 要传递到[!UICONTROL AWS S3]，您必须使用.gz或未压缩文件。
-   * **[!UICONTROL .info Receipt]：**&#x200B;指定生成传输控制([!DNL .info])文件。 [!DNL .info]文件提供了有关文件传输的元数据信息，以便合作伙伴可以验证Audience Manager是否正确处理了文件传输。 有关详细信息，请参阅用于日志文件传输的[传输控制文件](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/transfer-control-files.html?lang=zh-Hans)。
+   * **[!UICONTROL .info Receipt]：**&#x200B;指定生成传输控制([!DNL .info])文件。 [!DNL .info]文件提供了有关文件传输的元数据信息，以便合作伙伴能够验证Audience Manager是否正确处理了文件传输。 有关详细信息，请参阅用于日志文件传输的[传输控制文件](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/transfer-control-files.html?lang=en)。
    * **[!UICONTROL MD5 Checksum Receipt]：**&#x200B;指定生成[!DNL MD5]校验和回执。 [!DNL MD5]校验和回执，以便合作伙伴能够验证Audience Manager是否正确处理了完整传输。
 
 1. （视情况而定）如果您选择&#x200B;**[!UICONTROL HTTP]**，请填写以下字段：
@@ -57,5 +57,5 @@ ht-degree: 1%
 ## 删除格式 {#delete-format}
 
 1. 单击 **[!UICONTROL Formats]**。
-2. 在所需格式的&#x200B;**[!UICONTROL Actions]**&#x200B;列中单击![](assets/icon_delete.png)。
+2. 在所需格式的![](assets/icon_delete.png)列中单击&#x200B;**[!UICONTROL Actions]**。
 3. 单击&#x200B;**[!UICONTROL OK]**&#x200B;以确认删除。

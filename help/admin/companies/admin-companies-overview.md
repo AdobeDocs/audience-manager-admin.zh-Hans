@@ -1,5 +1,5 @@
 ---
-description: 使用“公司”页可查看您的Audience Manager配置中的公司列表。 如果您分配了相应的用户角色，则可以编辑或删除现有公司或创建新公司。
+description: 使用“公司”页面可查看您的Audience Manager配置中的公司列表。 如果您分配了相应的用户角色，则可以编辑或删除现有公司或创建新公司。
 seo-description: Use the Companies page to view a list of companies in your Audience Manager configuration. You can edit or delete existing companies or create new companies, providing that you have the appropriate user roles assigned.
 seo-title: Companies
 title: 公司
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # 公司 {#companies}
 
-使用[!UICONTROL Companies]页查看Audience Manager配置中的公司列表。 如果您分配了相应的用户角色，则可以编辑或删除现有公司或创建新公司。
+使用[!UICONTROL Companies]页面查看Audience Manager配置中的公司列表。 如果您分配了相应的用户角色，则可以编辑或删除现有公司或创建新公司。
 
 ![](assets/companies.png)
 

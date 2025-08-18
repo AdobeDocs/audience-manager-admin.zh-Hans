@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 审核日志记录 {#audit-logging}
 
-在调试客户问题时，请首先使用[!UICONTROL &#x200B; Audit Logging]。
+在调试客户问题时，请首先使用[!UICONTROL  Audit Logging]。
 
 >[!NOTE]
 >

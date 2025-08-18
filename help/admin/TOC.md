@@ -7,7 +7,7 @@ user-guide-description: 借助 Audience Manager 管理工具，您可以添加�
 source-git-commit: 25a00b3e877eab3136e70e924d87d011f44ba52c
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 28%
 # Audience Manager 管理指南 {#admin-guide}
 
 + [Audience Manager 管理主页](admin-home.md)
-+ [登录Audience Manager管理员](admin-login.md)
++ [登录到Audience Manager管理](admin-login.md)
 + [如何请求功能管理访问权限](admin-access.md)
 + 公司{#companies}
    + [公司](companies/admin-companies-overview.md)
@@ -48,9 +48,9 @@ ht-degree: 28%
    + [HTTP 格式宏](formats/web-formats.md)
    + [HTTP格式宏示例](formats/web-format-examples.md)
    + [创建或编辑格式](formats/admin-create-format.md)
-+ OAuth2 客户端{#oath2-clients}
++ OAuth2客户端{#oath2-clients}
    + [OAuth2客户端](admin-oauth2/admin-oauth2-create-edit.md)
-   + [API要求和Recommendations](admin-oauth2/aam-admin-api-requirements.md)
+   + [API要求和建议](admin-oauth2/aam-admin-api-requirements.md)
 + [审核日志记录](admin-audit-logging.md)
 + [我的个人资料](admin-my-profile.md)
 + [目标设置疑难解答](admin-destination-troubleshooting.md)

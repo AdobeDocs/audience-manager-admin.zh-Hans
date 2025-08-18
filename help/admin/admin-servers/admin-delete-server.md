@@ -1,5 +1,5 @@
 ---
-description: 使用“Audience Manager管理”工具中的“服务器”页可删除现有服务器。
+description: 使用Audience Manager管理工具中的“服务器”页面可删除现有服务器。
 seo-description: Use the Servers page in the Audience Manager Admin tool to delete an existing server.
 seo-title: Delete a Server
 title: 删除服务器
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 删除服务器 {#delete-a-server}
 
-使用Audience Manager管理工具中的[!UICONTROL Servers]页删除现有服务器。
+使用Audience Manager管理工具中的[!UICONTROL Servers]页面删除现有服务器。
 
 <!-- t_delete_server.xml -->
 
@@ -26,5 +26,5 @@ ht-degree: 0%
 
    ![步骤结果](assets/servers.png)
 
-1. 在所需服务器的&#x200B;**[!UICONTROL Actions]**&#x200B;列中单击![](assets/icon_delete.png)。
+1. 在所需服务器的![](assets/icon_delete.png)列中单击&#x200B;**[!UICONTROL Actions]**。
 1. 单击&#x200B;**[!UICONTROL OK]**&#x200B;以确认删除。

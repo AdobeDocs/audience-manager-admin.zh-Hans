@@ -1,8 +1,8 @@
 ---
-description: 您应当鼓励客户在使用Audience ManagerAPI时注意的事项。
+description: 您应当鼓励客户在使用Audience Manager API时注意的事项。
 seo-description: Things you should encourage your clients to be aware of when they're working with the Audience Manager APIs.
 seo-title: API Requirements and Recommendations
-title: API要求和Recommendations
+title: API要求和建议
 uuid: eba9cf92-f0c8-4394-8532-0de9a2e7b103
 exl-id: 24f90732-31a6-436d-862b-e6871d279c7a
 source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# API要求和Recommendations {#api-requirements-and-recommendations}
+# API要求和建议 {#api-requirements-and-recommendations}
 
-您应鼓励客户在使用Audience Manager[!DNL API]时注意的事项。
+您应当鼓励客户在使用Audience Manager [!DNL API]时注意的事项。
 
 ## 要求 {#requirements}
 
@@ -29,11 +29,11 @@ ht-degree: 0%
 
 * **文档和代码示例：**&#x200B;斜体&#x200B;*中的文本*&#x200B;表示在生成或接收[!DNL API]数据时提供或传入的变量。 将&#x200B;*斜体*&#x200B;文本替换为您自己的代码、参数或其他必需的信息。
 
-## Recommendations：创建通用API用户 {#recommendations}
+## 推荐：创建通用API用户 {#recommendations}
 
-我们建议创建一个单独的技术用户帐户来处理Audience Manager[!DNL API]。这是一个通用帐户，它与客户组织中的特定用户无关，也与特定用户关联。 此类型的[!DNL API]用户帐户可帮助完成2件事：
+我们建议创建一个单独的技术用户帐户来使用Audience Manager [!DNL API]。这是一个通用帐户，它与客户组织中的特定用户无关，也与特定用户关联。 此类型的[!DNL API]用户帐户可帮助完成2件事：
 
 * 识别正在调用[!DNL API]的服务（例如，从使用我们的[!DNL API]的客户端应用或进行批量更改的调用）。
 * 提供对[!DNL API]的无中断访问。与特定员工关联的帐户可能在他们离开公司时删除。 这会阻止您的客户使用可用的[!DNL API]代码。 不绑定到特定员工的通用帐户有助于避免此问题。
 
-作为此类帐户的示例或用例，假设您的客户希望使用[批量管理工具](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=zh-Hans)一次更改多个区段。 为此，他们需要[!DNL API]访问权限。 不要向特定用户添加权限，而是创建一个非特定的[!DNL API]用户帐户，该帐户具有进行[!DNL API]调用所需的相应凭据、密钥和密钥。 如果客户端开发自己的使用[!DNL Audience Manager] [!DNL API]的应用程序，这也很有用。
+作为此类帐户的示例或用例，假设您的客户希望使用[批量管理工具](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=en)一次更改多个区段。 为此，他们需要[!DNL API]访问权限。 不要向特定用户添加权限，而是创建一个非特定的[!DNL API]用户帐户，该帐户具有进行[!DNL API]调用所需的相应凭据、密钥和密钥。 如果客户端开发自己的使用[!DNL Audience Manager] [!DNL API]的应用程序，这也很有用。

@@ -1,5 +1,5 @@
 ---
-description: 使用“Audience Manager管理”工具中的“公司”页面创建新公司。
+description: 使用Audience Manager管理工具中的“公司”页面来创建新公司。
 seo-description: Use the Companies page in the Audience Manager Admin tool to create a new company.
 seo-title: Create a Company Profile
 title: 创建公司配置文件
@@ -31,25 +31,25 @@ ht-degree: 2%
 
      例如，如果您的公司名为[!DNL AcmeCorp]，则子域将为[!DNL acmecorp]。
 
-     Audience Manager使用[!UICONTROL Data Collection Server] (DCS)的子域。 在上一个示例中，如果贵公司在[!UICONTROL DCS]中的完整[!DNL URL]为[!DNL acmecorp.demdex.net]。
+     Audience Manager使用[!UICONTROL Data Collection Server] (DCS)的子域。 在上一个示例中，如果贵公司在[!DNL URL]中的完整[!UICONTROL DCS]为[!DNL acmecorp.demdex.net]。
 
    * **[!UICONTROL Lifecyle]**：为公司指定所需的阶段：
-      * **[!UICONTROL Active]**：指定该公司将成为活动的Audience Manager客户端。 [!UICONTROL Active]帐户意味着付费客户，不仅是为了咨询，而且也是为了提供Audience ManagerSKU。
+      * **[!UICONTROL Active]**：指定该公司将成为活动的Audience Manager客户端。 [!UICONTROL Active]帐户意味着付费客户，不仅是为了咨询，而且也是为了使用Audience Manager SKU。
       * **[!UICONTROL Demo]**：指定公司仅用于演示目的。 报表数据将被自动伪造。
-      * **[!UICONTROL Prospect]**：指定该公司是潜在的Audience Manager客户，例如为公司免费提供[!DNL POC]或为销售演示设置帐户。
+      * **[!UICONTROL Prospect]**：指定该公司是潜在的Audience Manager客户，例如被授予免费[!DNL POC]的公司或为销售演示设置的帐户。
       * **[!UICONTROL Test]**：指定公司仅供内部测试。
 
    * **[!UICONTROL Account Types]**：指定此公司的完整帐户类型集。 没有帐户类型与任何其他类型互斥。
       * **[!UICONTROL Full AAM]**：指定公司将拥有完整的Adobe Audience Manager帐户，且用户将拥有登录访问权限。
-      * **[!UICONTROL MMP]**：指定已允许公司使用[!UICONTROL Master Marketing Profile] ([!UICONTROL MMP])功能。 [!UICONTROL MMP]允许使用分配给每个访客然后由Audience Manager使用的[!UICONTROL Experience Cloud ID] ([!DNL MCID])在Experience Cloud间共享受众。 如果您选择此帐户类型，则也会自动选择[!UICONTROL Experience Cloud ID Service]。
+      * **[!UICONTROL MMP]**：指定已允许公司使用[!UICONTROL Master Marketing Profile] ([!UICONTROL MMP])功能。 [!UICONTROL MMP]允许使用分配给每个访客并随后由Audience Manager使用的[!UICONTROL Experience Cloud ID] ([!DNL MCID])在Experience Cloud之间共享受众。 如果您选择此帐户类型，则也会自动选择[!UICONTROL Experience Cloud ID Service]。
 
-        有关详细信息，请参阅[Experience Cloud受众](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=zh-Hans)。
+        有关详细信息，请参阅[Experience Cloud受众](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en)。
 
-   * **[!UICONTROL Data Source]**：指定该公司是Audience Manager中的第三方数据提供程序。
-   * **[!UICONTROL Targeting Partner]**：指定公司作为Audience Manager客户的定位平台。
+   * **[!UICONTROL Data Source]**：指定该公司是Audience Manager中的第三方数据提供商。
+   * **[!UICONTROL Targeting Partner]**：指定将该公司用作Audience Manager客户的定位平台。
    * **[!UICONTROL Visitor ID Service]**：指定已允许公司使用[!UICONTROL Experience Cloud Visitor ID Service]。
 
-     [!UICONTROL Experience Cloud Visitor ID Service]提供了跨Experience Cloud解决方案的通用访客ID。 有关详细信息，请参阅[Experience Cloud访客ID服务用户指南](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans)。
+     [!UICONTROL Experience Cloud Visitor ID Service]提供了跨Experience Cloud解决方案的通用访客ID。 有关详细信息，请参阅[Experience Cloud访客ID服务用户指南](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en)。
 
    * **[!UICONTROL Agency]**：指定公司将拥有[!UICONTROL Agency]帐户。
 
@@ -77,26 +77,26 @@ ht-degree: 2%
 
      例如，如果您的公司名为[!DNL AcmeCorp]，则子域将为[!DNL acmecorp]。
 
-     Audience Manager使用[!UICONTROL Data Collection Server] (DCS)的子域。 在上一个示例中，如果贵公司在[!UICONTROL DCS]中的完整[!DNL URL]为[!DNL acmecorp.demdex.net]。
+     Audience Manager使用[!UICONTROL Data Collection Server] (DCS)的子域。 在上一个示例中，如果贵公司在[!DNL URL]中的完整[!UICONTROL DCS]为[!DNL acmecorp.demdex.net]。
 
    * **[!UICONTROL imsOrgld]**： ([!UICONTROL Identity Management System Organization ID])通过此ID，可将您的公司与Adobe Experience Cloud连接。
    * **[!UICONTROL Lifecyle]**：为公司指定所需的阶段：
-      * **[!UICONTROL Active]**：指定该公司将成为活动的Audience Manager客户端。 活动帐户是指付费客户，不仅是为了咨询，而且也是为了提供Audience ManagerSKU。
+      * **[!UICONTROL Active]**：指定该公司将成为活动的Audience Manager客户端。 活动帐户意味着付费客户，不仅是为了咨询，而且也是为了使用Audience Manager SKU。
       * **[!UICONTROL Demo]**：指定公司仅用于演示目的。 报表数据将被自动伪造。
-      * **[!UICONTROL Prospect]**：指定该公司是潜在的Audience Manager客户，例如为公司免费提供[!DNL POC]或为销售演示设置帐户。
+      * **[!UICONTROL Prospect]**：指定该公司是潜在的Audience Manager客户，例如被授予免费[!DNL POC]的公司或为销售演示设置的帐户。
       * **[!UICONTROL Test]**：指定公司仅供内部测试。
    * **[!UICONTROL Account Types]**：指定此公司的完整帐户类型集。 没有帐户类型与任何其他类型互斥。
       * **[!UICONTROL Full AAM]**：指定公司将拥有完整的Adobe Audience Manager帐户，且用户将拥有登录访问权限。
       * **[!UICONTROL MMP]**：指定已允许公司使用主营销配置文件([!UICONTROL MMP])功能。
 
         如果您选择此帐户类型，则也会自动选择&#x200B;**[!UICONTROL Visitor ID Service]**。
-有关详细信息，请参阅[Experience Cloud受众](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=zh-Hans)。
+有关详细信息，请参阅[Experience Cloud受众](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en)。
 
-   * **[!UICONTROL Data Source]**：指定该公司是Audience Manager中的第三方数据提供程序。
-   * **[!UICONTROL Targeting Partner]**：指定公司作为Audience Manager客户的定位平台。
+   * **[!UICONTROL Data Source]**：指定该公司是Audience Manager中的第三方数据提供商。
+   * **[!UICONTROL Targeting Partner]**：指定将该公司用作Audience Manager客户的定位平台。
    * **[!UICONTROL Visitor ID Service]**：指定已允许该公司使用Experience Cloud访客ID服务。
 
-     Experience Cloud 访客 ID 服务可以跨多个 Experience Cloud 解决方案提供一个通用的访客 ID。有关详细信息，请参阅[Experience CloudID服务用户指南](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
+     Experience Cloud 访客 ID 服务可以跨多个 Experience Cloud 解决方案提供一个通用的访客 ID。有关详细信息，请参阅[Experience Cloud ID服务用户指南](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)。
 
    * **[!UICONTROL Agency]**：指定公司将拥有代理帐户。
    * **[!UICONTROL Features]**：选择所需的选项：
@@ -108,7 +108,7 @@ ht-degree: 2%
 
 ## 删除公司配置文件 {#delete-company-profile}
 
-使用Audience Manager[!UICONTROL Admin]工具中的[!UICONTROL Companies]页删除现有公司。
+使用Audience Manager [!UICONTROL Companies]工具中的[!UICONTROL Admin]页面删除现有公司。
 
 <!-- t_delete_company.xml -->
 
@@ -120,5 +120,5 @@ ht-degree: 2%
 
    ![步骤结果](assets/companies.png)
 
-1. 在所需公司的&#x200B;**[!UICONTROL Actions]**&#x200B;列中单击![](assets/icon_delete.png)。
+1. 在所需公司的![](assets/icon_delete.png)列中单击&#x200B;**[!UICONTROL Actions]**。
 1. 单击&#x200B;**[!UICONTROL OK]**&#x200B;以确认删除。

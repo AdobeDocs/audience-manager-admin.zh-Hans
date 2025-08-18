@@ -1,5 +1,5 @@
 ---
-description: 创建新Audience Manager用户或编辑和删除现有用户。
+description: 创建新的Audience Manager用户或编辑和删除现有用户。
 seo-description: Create new Audience Manager users or edit and delete existing users.
 seo-title: Manage Company Users
 title: 管理公司用户
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 管理公司用户 {#manage-company-users}
 
-创建新Audience Manager用户或编辑和删除现有用户。
+创建新的Audience Manager用户或编辑和删除现有用户。
 
 <!-- t_manage_company_users.xml -->
 
@@ -33,10 +33,10 @@ ht-degree: 2%
    * **[!UICONTROL Username]**：（必需）指定用户的Audience Manager用户名。 用户名必须是唯一的。
    * **[!UICONTROL Email Address]**： （必需）指定用户的电子邮件地址。
    * **[!UICONTROL Phone Number]**：指定用户的电话号码。
-   * **[!UICONTROL IMS ID]**：用户的[!UICONTROL Identity Management System ID]。 通过此ID，用户可链接到将解决方案Adobe到Adobe Experience Cloud。
+   * **[!UICONTROL IMS ID]**：用户的[!UICONTROL Identity Management System ID]。 此ID允许用户链接到Adobe Experience Cloud的Adobe解决方案。
    * **[!UICONTROL Is Admin]**：将此用户设为Audience Manager管理用户。 管理员拥有此合作伙伴的所有Audience Manager用户角色。
    * **[!UICONTROL Status]**：创建新用户时，此字段最初显示为&#x200B;**[!UICONTROL Pending]**，直到用户登录并重置临时密码为止。 如果您正在编辑现有用户，则可以从以下状态中选择：
-      * **[!UICONTROL Active]**：指定此用户为活动Audience Manager用户。
+      * **[!UICONTROL Active]**：指定此用户是活动的Audience Manager用户。
       * **[!UICONTROL Deactivated]**：指定此用户是已停用的Audience Manager用户。
       * **[!UICONTROL Expired]**：指定此用户是过期用户。
       * **[!UICONTROL Locked Out]**：指定此用户为锁定用户。
@@ -48,5 +48,5 @@ ht-degree: 2%
 要删除用户，请执行以下操作：
 
 1. 单击&#x200B;**[!UICONTROL Companies]**，找到并单击所需的公司，然后单击&#x200B;**[!UICONTROL Users]**&#x200B;选项卡。
-1. 在所需用户的&#x200B;**[!UICONTROL Actions]**&#x200B;列中单击![](assets/icon_delete.png)。
+1. 在所需用户的![](assets/icon_delete.png)列中单击&#x200B;**[!UICONTROL Actions]**。
 1. 单击&#x200B;**[!UICONTROL OK]**&#x200B;以确认删除。

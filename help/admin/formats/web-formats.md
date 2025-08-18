@@ -30,12 +30,12 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p> <code>AAM_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p> <span class="keyword">Audience Manager</span> ID。 </p> </td> 
+   <td colname="col3"> <p> <span class="keyword"> Audience Manager </span> ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>数据合作伙伴唯一用户ID。 如果已将ID与<span class="keyword">Audience Manager</span>设备ID同步，则此宏会返回您分配给用户的ID。 </p> </td> 
+   <td colname="col3"> <p>数据合作伙伴唯一用户ID。 如果用户的ID已与<span class="keyword"> Audience Manager </span>设备ID同步，则此宏会返回您分配给用户的ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
@@ -90,7 +90,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>活动发起的<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=zh-Hans">Audience ManagerDCS区域</a>。</p> </td> 
+   <td colname="col3"> <p>活动发起的<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=en"> Audience Manager DCS区域</a>。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -159,7 +159,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p> <code>USER_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>POST</code> </p> </td> 
-   <td colname="col3"> <p><span class="keyword">Audience Manager</span>用户ID的列表。 您还可以返回包含以下内容的特定字段： </p> 
+   <td colname="col3"> <p><span class="keyword">个Audience Manager </span>用户ID的列表。 您还可以返回包含以下内容的特定字段： </p> 
     <ul id="ul_B6857D809FDC46749B7E745BD8C45F8E"> 
      <li id="li_F31CD82D16ED41FD82518141D90B5B35"> <code>user.aamUuid</code> </li> 
      <li id="li_623FA758C84D4A2D9B25C7FBE90F62B7"> <code>user.dpUuid</code> </li> 

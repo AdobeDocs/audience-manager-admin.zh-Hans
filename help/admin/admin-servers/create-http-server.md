@@ -1,5 +1,5 @@
 ---
-description: 使用“Audience Manager管理”工具中的“服务器”页可创建新的HTTP服务器或编辑现有服务器。
+description: 使用Audience Manager管理工具中的“服务器”页可创建新的HTTP服务器或编辑现有服务器。
 seo-description: Use the Servers page in the Audience Manager Admin tool to create a new HTTP server or to edit an existing server.
 seo-title: Create or Edit an HTTP Server
 title: 创建或编辑HTTP服务器
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 创建或编辑HTTP服务器 {#create-or-edit-an-http-server}
 
-使用Audience Manager管理工具中的[!UICONTROL Servers]页创建新的HTTP服务器或编辑现有服务器。
+使用Audience Manager管理工具中的[!UICONTROL Servers]页面创建新的HTTP服务器或编辑现有服务器。
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ ht-degree: 2%
    * **[!UICONTROL Port]：**&#x200B;为此服务器指定所需的端口。 将显示每种加密类型的默认端口。 如有必要，可以更改默认端口
    * **[!UICONTROL Maximum Users Per Request]：**&#x200B;指定此服务器允许的每个请求的最大用户数。
    * **[!UICONTROL URL Prefix]：**&#x200B;指定要用于此服务器的前缀[!DNL URL]。
-   * **[!UICONTROL Authentication URL]：**&#x200B;为此`HTTP`服务器指定[!UICONTROL Authentication URL]。
+   * **[!UICONTROL Authentication URL]：**&#x200B;为此[!UICONTROL Authentication URL]服务器指定`HTTP`。
    * **[!UICONTROL Authentication]：**&#x200B;指定所需的身份验证方法： **[!UICONTROL None]**、**[!UICONTROL Username/Password]**&#x200B;或&#x200B;**[!UICONTROL SSH Key]**。
    * **[!UICONTROL HTTP Signature Header]：**&#x200B;由客户提供的、包含[!DNL HTTP]签名密钥的[!DNL HTTP]标头的名称。 默认值为[!UICONTROL X-Signature]，如以下示例所示：
 
@@ -50,7 +50,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >如果要为合作伙伴的实时数据传输启用[OAuth 2.0身份验证](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=zh-Hans)，请填写下表中的字段。 需要完全按照表中的方式填写&#x200B;*斜体*&#x200B;中的字段。
+   >如果要为合作伙伴的实时数据传输启用[OAuth 2.0身份验证](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=en)，请填写下表中的字段。 需要完全按照表中的方式填写&#x200B;*斜体*&#x200B;中的字段。
 
    | 名称 | 值 |
    |---|---|
