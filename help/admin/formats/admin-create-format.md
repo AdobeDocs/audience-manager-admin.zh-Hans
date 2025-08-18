@@ -43,7 +43,7 @@ ht-degree: 1%
    * **[!UICONTROL Data Row]：**&#x200B;指定在文件的每个出站行中显示的文本。
    * **[!UICONTROL Maximum File Size (In MB)]：**&#x200B;指定数据传输文件的最大文件大小。 压缩文件必须小于100 MB。 未压缩文件大小没有限制。
    * **[!UICONTROL Compression]：**&#x200B;为您的数据文件选择所需的压缩类型： gz或zip。 要传递到[!UICONTROL AWS S3]，您必须使用.gz或未压缩文件。
-   * **[!UICONTROL .info Receipt]：**&#x200B;指定生成传输控制([!DNL .info])文件。 [!DNL .info]文件提供了有关文件传输的元数据信息，以便合作伙伴能够验证Audience Manager是否正确处理了文件传输。 有关详细信息，请参阅用于日志文件传输的[传输控制文件](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/transfer-control-files.html?lang=en)。
+   * **[!UICONTROL .info Receipt]：**&#x200B;指定生成传输控制([!DNL .info])文件。 [!DNL .info]文件提供了有关文件传输的元数据信息，以便合作伙伴能够验证Audience Manager是否正确处理了文件传输。 有关详细信息，请参阅用于日志文件传输的[传输控制文件](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/transfer-control-files.html?lang=zh-Hans)。
    * **[!UICONTROL MD5 Checksum Receipt]：**&#x200B;指定生成[!DNL MD5]校验和回执。 [!DNL MD5]校验和回执，以便合作伙伴能够验证Audience Manager是否正确处理了完整传输。
 
 1. （视情况而定）如果您选择&#x200B;**[!UICONTROL HTTP]**，请填写以下字段：

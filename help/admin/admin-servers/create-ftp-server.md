@@ -26,7 +26,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >作为最佳实践，我们建议使用[!DNL Amazon S3]作为从合作伙伴获取文件并将文件传递给合作伙伴的方法。 [!DNL Amazon S3]提供了一个简单的Web服务界面，可用于随时随地从Web上存储和检索任意数量的数据。 有关详细信息，请参阅[Amazon用户指南](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html)中的&#x200B;*关于Audience Manager S3*。
+   >作为最佳实践，我们建议使用[!DNL Amazon S3]作为从合作伙伴获取文件并将文件传递给合作伙伴的方法。 [!DNL Amazon S3]提供了一个简单的Web服务界面，可用于随时随地从Web上存储和检索任意数量的数据。 有关详细信息，请参阅[Amazon用户指南](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=zh-Hans)中的&#x200B;*关于Audience Manager S3*。
 
 1. 填写以下字段：
 
