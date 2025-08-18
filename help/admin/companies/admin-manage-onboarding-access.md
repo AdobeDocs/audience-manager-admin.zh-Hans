@@ -14,7 +14,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 > 此页面的受众是Adobe内部员工。 如果您是Audience Manager客户，正在请求此页面上所述的第二方数据源映射，请联系客户关怀团队或您的技术客户经理。
-> > 请注意，不需要为现有数据共享关系请求映射。 将数据载入属于您的PID的目标数据源时，也不需要映射。
+> &#x200B;> 请注意，不需要为现有数据共享关系请求映射。 将数据载入属于您的PID的目标数据源时，也不需要映射。
 
 为了防止文件和数据意外载入其他合作伙伴拥有的目标数据源，Audience Manager在合作伙伴ID (PID)和其他合作伙伴拥有的数据源(DPID)之间添加了映射要求。 有关Audience Manager ID[的](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html)索引中PID和DPID的更多信息。
 
