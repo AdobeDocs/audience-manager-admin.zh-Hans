@@ -38,7 +38,7 @@ ht-degree: 83%
      <li id="li_6AD053625237446FB9B581772896F64F">关于早期公告，请参阅<a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans" format="https" scope="external">以前的发行说明</a>。 </li> 
     </ul> <p class="head"> <b>Experience Cloud 资源</b> </p> 
     <ul id="ul_F8DE07F1ADBC411E894751F927BB1477"> 
-     <li id="li_09B0F2E487CA4C55A723ACB5901C7B49"><a href="https://business.adobe.com/products/marketing-cloud/main.html" format="http" scope="external"> Adobe Experience Cloud</a> </li> 
+     <li id="li_09B0F2E487CA4C55A723ACB5901C7B49"><a href="https://business.adobe.com/cn/products/marketing-cloud/main.html" format="http" scope="external"> Adobe Experience Cloud</a> </li> 
      <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/cn/support/social.html" format="http" scope="external"> Adobe Social 社区</a> </li> 
      <li id="li_4F16686C311743C484013D84971EEBD3"> <a href="https://helpx.adobe.com/cn/learning.html?promoid=KAUDK" format="https" scope="external"> Adobe 培训和教程</a> </li> 
      <li id="li_32581A0A26CB4F43833D607221154188"><a href="https://www.adobe.io" format="https" scope="external"> 开发人员连接</a> </li> 
