@@ -5,7 +5,7 @@ seo-title: Create or Edit an FTP Server
 title: 创建或编辑FTP服务器
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 exl-id: 9eae4ecf-ccde-483a-ae53-1cbac033d8d6
-source-git-commit: 8af040e49b881302315e0b66baa73db47c5eee28
+source-git-commit: 92bf9b281c71e38d1bd5e0229f550a2124080b21
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 1%
@@ -26,7 +26,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >作为最佳实践，我们建议使用[!DNL Amazon S3]作为从合作伙伴获取文件并将文件传递给合作伙伴的方法。 [!DNL Amazon S3]提供了一个简单的Web服务界面，可用于随时随地从Web上存储和检索任意数量的数据。 有关详细信息，请参阅[Amazon用户指南](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=zh-Hans)中的&#x200B;*关于Audience Manager S3*。
+   >作为最佳实践，我们建议使用[!DNL Amazon S3]作为从合作伙伴获取文件并将文件传递给合作伙伴的方法。 [!DNL Amazon S3]提供了一个简单的Web服务界面，可用于随时随地从Web上存储和检索任意数量的数据。 有关详细信息，请参阅[Amazon用户指南](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html)中的&#x200B;*关于Audience Manager S3*。
 
 1. 填写以下字段：
 
@@ -44,10 +44,13 @@ ht-degree: 1%
    >请记得将我们的出口[!DNL FTP] [!DNL IP]添加到您的允许IP列表： **54.204.116.43**。
 
 1. 对于&#x200B;**[!UICONTROL SSH Key]**&#x200B;身份验证：
+
    >[!NOTE]
    >
    >在配置SSH密钥身份验证时，请确保始终仅以OpenSSH格式生成公钥和私钥。
-   >1. 从任何[!DNL Linux]或[!DNL Mac]计算机生成公钥/私钥对。
-   >1. 将&#x200B;**公钥**&#x200B;提供给客户端在其[!DNL SFTP]服务器上更新。 它们必须包含其服务器上的公钥中的所有文本，包括`-----BEGIN RSA PRIVATE KEY-----`和`-----END RSA PRIVATE KEY-----` 。 作为交换，他们必须提供用于安装密钥的用户名。
-   >1. 使用客户端提供的用户名字段更新用户名字段，使用&#x200B;**私钥**&#x200B;更新密钥字段。
+
+   1. 从任何[!DNL Linux]或[!DNL Mac]计算机生成公钥/私钥对。
+   1. 将&#x200B;**公钥**&#x200B;提供给客户端在其[!DNL SFTP]服务器上更新。 它们必须包含其服务器上的公钥中的所有文本，包括`-----BEGIN RSA PRIVATE KEY-----`和`-----END RSA PRIVATE KEY-----` 。 作为交换，他们必须提供用于安装密钥的用户名。
+   1. 使用客户端提供的用户名字段更新用户名字段，使用&#x200B;**私钥**&#x200B;更新密钥字段。
+
 1. 如果要创建新服务器，请单击&#x200B;**[!UICONTROL Create]**；如果要编辑现有服务器，请单击&#x200B;**[!UICONTROL Update]**。
