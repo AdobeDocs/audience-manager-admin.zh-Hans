@@ -1,32 +1,31 @@
 ---
 cloud: Experience Cloud
-solution-title: Learn & Support
-solution-hub-url: https://helpx.adobe.com/cn/support/audience-manager.html
-solution-image: assets/aam-icon-24.png
+solution: Audience Manager
+feature-set: Audience Manager
+landing-page-name: audience-manager
+landing-page-breadcrumb-title: Audience Manager
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/cn/audience-manager/get-started.html
-tutorials-title: Tutorials
-tutorials-url: https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/overview.html?lang=zh-Hans
 git-repo: https://github.com/AdobeDocs/audience-manager-admin.zh-Hans
 index: false
-source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
+hide: true
+source-git-commit: dcbc5994cd9b9cce18e8f1f59f3be6794eacdb76
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 1%
+source-wordcount: '109'
+ht-degree: 2%
 
 ---
 
 
-# 供內部使用的中繼資料
+# 元数据供内部使用
 
-metadata.md檔案包含存放庫層級中繼資料，這些中繼資料會傳遞至存放庫中的使用手冊TOC.md檔案。 如果您想要變更任何使用手冊的metadata.md內容，請在任何TOC.md檔案中變更。
+metadata.md文件包含存储库级别的元数据，这些元数据会传送到存储库中的用户指南TOC.md文件。 如果要更改任何用户指南的metadata.md内容，请在任何TOC.md文件中进行更改。
 
-| 中繼資料 | 作用 |
+| 元数据 | 作用 |
 |--- |--- |
-| solution-title | 在文章標題中作為連結使用 |
-| solution-hub-url | 開啟helpx中樞頁面 |
-| solution-icon | 在解決方案標題旁邊顯示解決方案圖示。 尚未實作 |
-| getting-started-url | helpx快速入門頁面的連結 |
-| tutorials-url | 教學課程影片（helpx或KT教學課程其中之一）的連結 |
-| mini-toc-levels | 決定顯示在右側欄中的標題層數。 默认为 2 |
-| git-repo | 指定內部使用的主要存放庫位置 |
+| solution-title | 在文章标题中用作链接 |
+| solution-hub-url | 打开helpx中心页面 |
+| 解决方案图标 | 在解决方案标题旁边显示解决方案图标。 尚未实施 |
+| getting-started-url | 指向helpx快速入门页面的链接 |
+| tutorials-url | 指向视频教程的链接 — helpx教程或KT教程 |
+| mini-toc-levels | 确定右边栏中显示的标题级别数。 默认为 2 |
+| git-repo | 指定主存储库的位置以供内部使用 |
