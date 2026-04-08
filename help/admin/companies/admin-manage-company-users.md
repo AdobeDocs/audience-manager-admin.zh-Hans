@@ -5,9 +5,11 @@ seo-title: Manage Company Users
 title: 管理公司用户
 uuid: 32c8a4e1-c29c-44d2-8cd4-f4f1be707492
 exl-id: a2c5fd10-699f-4a0d-acec-f46811140e48
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+TQID: https://experienceleague.adobe.com/hr8y9o-ghVHBh-O-7w0MtTV2yoXIpqc0BvLf8CSzpN8
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: 272
 ht-degree: 2%
 
 ---
@@ -48,5 +50,5 @@ ht-degree: 2%
 要删除用户，请执行以下操作：
 
 1. 单击&#x200B;**[!UICONTROL Companies]**，找到并单击所需的公司，然后单击&#x200B;**[!UICONTROL Users]**&#x200B;选项卡。
-1. 在所需用户的![](assets/icon_delete.png)列中单击&#x200B;**[!UICONTROL Actions]**。
+1. 在所需用户的&#x200B;**[!UICONTROL Actions]**&#x200B;列中单击![](assets/icon_delete.png)。
 1. 单击&#x200B;**[!UICONTROL OK]**&#x200B;以确认删除。

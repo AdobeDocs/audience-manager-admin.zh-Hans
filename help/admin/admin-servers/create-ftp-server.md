@@ -5,9 +5,11 @@ seo-title: Create or Edit an FTP Server
 title: 创建或编辑FTP服务器
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 exl-id: 9eae4ecf-ccde-483a-ae53-1cbac033d8d6
-source-git-commit: 92bf9b281c71e38d1bd5e0229f550a2124080b21
+TQID: https://experienceleague.adobe.com/vXm5k1APT6BVn0Ub7ntfDCnAdSfOWTLRo6ci-yK5cWk
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: 397
 ht-degree: 1%
 
 ---
@@ -26,7 +28,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >作为最佳实践，我们建议使用[!DNL Amazon S3]作为从合作伙伴获取文件并将文件传递给合作伙伴的方法。 [!DNL Amazon S3]提供了一个简单的Web服务界面，可用于随时随地从Web上存储和检索任意数量的数据。 有关详细信息，请参阅[Amazon用户指南](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=zh-Hans)中的&#x200B;*关于Audience Manager S3*。
+   >作为最佳实践，我们建议使用[!DNL Amazon S3]作为从合作伙伴获取文件并将文件传递给合作伙伴的方法。 [!DNL Amazon S3]提供了一个简单的Web服务界面，可用于随时随地从Web上存储和检索任意数量的数据。 有关详细信息，请参阅&#x200B;*Amazon用户指南*&#x200B;中的[关于Audience Manager S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html)。
 
 1. 填写以下字段：
 

@@ -1,24 +1,28 @@
 ---
-description: 借助 Audience Manager 管理工具，您可以添加和配置公司、服务器、报表、格式和用户。您还可以查看或编辑您的个人配置文件。
+description: 借助 Audience Manager 管理工具，您可以添加和配置公司、服务器、报表、格式和用户。 您还可以查看或编辑您的个人配置文件。
 seo-description: The Audience Manager Admin tool lets you add and configure companies, servers, reports, formats, and users. You can also view or edit your personal profile.
 seo-title: Audience Manager Admin Home
 title: Audience Manager 管理主页
 uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
 exl-id: 27316802-9c98-41f5-af3e-edc11e572e29
-source-git-commit: e12731066834df18b44e6737fe8c1264d316f7fd
+TQID: https://experienceleague.adobe.com/eBF21MejF-AR-LUhqqCcd7ObZc9u-SqMbitmnFnCBao
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 83%
+source-wordcount: 223
+ht-degree: 72%
 
 ---
 
 # Audience Manager 管理主页 {#audience-manager-admin-home}
 
-借助 Audience Manager 管理工具，您可以添加和配置公司、服务器、报表、格式和用户。您还可以查看或编辑您的个人配置文件。
+借助 Audience Manager 管理工具，您可以添加和配置公司、服务器、报表、格式和用户。 您还可以查看或编辑您的个人配置文件。
 
 >[!IMPORTANT]
 >
-> 此文档存储库的受众是Adobe内部员工。 如果您是Audience Manager客户，请导航到[Audience Manager指南概述](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=zh-Hans)。
+> 此文档存储库的受众是Adobe内部员工。 如果您是Audience Manager客户，请导航到[Audience Manager指南概述](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)。
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
@@ -34,12 +38,12 @@ ht-degree: 83%
      </ul> </p> </td> 
    <td colname="col2" valign="top"> <p class="head"><b>发行说明</b> </p> 
     <ul id="ul_1AA5CED5DA0F4B78B8BC4D74539E97EF"> 
-     <li id="li_1B636241BCC14468980CF415B15A875F">有关新增功能和修复，请参阅最新的 <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans" format="https" scope="external">Experience Cloud 发行说明</a>。 </li> 
-     <li id="li_6AD053625237446FB9B581772896F64F">关于早期公告，请参阅<a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans" format="https" scope="external">以前的发行说明</a>。 </li> 
+     <li id="li_1B636241BCC14468980CF415B15A875F">有关新增功能和修复，请参阅最新的 <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud 发行说明</a>。 </li> 
+     <li id="li_6AD053625237446FB9B581772896F64F">关于早期公告，请参阅<a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">以前的发行说明</a>。 </li> 
     </ul> <p class="head"> <b>Experience Cloud 资源</b> </p> 
     <ul id="ul_F8DE07F1ADBC411E894751F927BB1477"> 
-     <li id="li_09B0F2E487CA4C55A723ACB5901C7B49"><a href="https://business.adobe.com/cn/products/marketing-cloud/main.html" format="http" scope="external"> Adobe Experience Cloud</a> </li> 
-     <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/cn/support/social.html" format="http" scope="external"> Adobe Social 社区</a> </li> 
+     <li id="li_09B0F2E487CA4C55A723ACB5901C7B49"><a href="https://business.adobe.com/products/marketing-cloud/main.html" format="http" scope="external"> Adobe Experience Cloud</a> </li> 
+     <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/support/social.html" format="http" scope="external"> Adobe Social 社区</a> </li> 
      <li id="li_4F16686C311743C484013D84971EEBD3"> <a href="https://helpx.adobe.com/cn/learning.html?promoid=KAUDK" format="https" scope="external"> Adobe 培训和教程</a> </li> 
      <li id="li_32581A0A26CB4F43833D607221154188"><a href="https://www.adobe.io" format="https" scope="external"> 开发人员连接</a> </li> 
      <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/cn/support/experience-cloud.html" format="https" scope="external"> 产品文档主页</a> </li> 

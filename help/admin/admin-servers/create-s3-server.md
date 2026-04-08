@@ -5,10 +5,12 @@ seo-title: Create or Edit an S3 Server
 title: 创建或编辑S3服务器
 uuid: 94fee787-eb26-45aa-b602-d61ab12969ea
 exl-id: 89310de0-e24e-4d4b-8171-56faf0b441f6
-source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
+TQID: https://experienceleague.adobe.com/rtXpkVovwbjCwLk3caZ7Ii-LLcr2n3eL73OADaLoul0
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 2%
+source-wordcount: 211
+ht-degree: 1%
 
 ---
 
@@ -26,7 +28,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >我们建议使用[!DNL Amazon S3]作为从合作伙伴获取文件并将文件传递给合作伙伴的方法。 [!DNL Amazon S3]提供了一个简单的Web服务界面，可用于随时随地从Web上存储和检索任意数量的数据。 有关详细信息，请参阅[Amazon用户指南](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=zh-Hans)中的&#x200B;*关于Audience Manager S3*。
+   >我们建议使用[!DNL Amazon S3]作为从合作伙伴获取文件并将文件传递给合作伙伴的方法。 [!DNL Amazon S3]提供了一个简单的Web服务界面，可用于随时随地从Web上存储和检索任意数量的数据。 有关详细信息，请参阅&#x200B;*Amazon用户指南*&#x200B;中的[关于Audience Manager S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html)。
 
 1. 填写以下字段：
 

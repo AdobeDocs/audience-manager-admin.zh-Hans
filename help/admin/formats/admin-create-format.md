@@ -5,9 +5,13 @@ seo-title: Create or Edit a Format
 title: 创建或编辑格式
 uuid: ca1b1feb-bcd3-4a41-b1e8-80565f6c23ae
 exl-id: 3c97d1e9-8093-4181-a1fd-fb1816cdaa3d
-source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
+TQID: https://experienceleague.adobe.com/VMEOfWNeQ5CSWvWqZYdjNO4qyvFD5Iw1onpAdVRKgQQ
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: 439
 ht-degree: 1%
 
 ---
@@ -43,7 +47,7 @@ ht-degree: 1%
    * **[!UICONTROL Data Row]：**&#x200B;指定在文件的每个出站行中显示的文本。
    * **[!UICONTROL Maximum File Size (In MB)]：**&#x200B;指定数据传输文件的最大文件大小。 压缩文件必须小于100 MB。 未压缩文件大小没有限制。
    * **[!UICONTROL Compression]：**&#x200B;为您的数据文件选择所需的压缩类型： gz或zip。 要传递到[!UICONTROL AWS S3]，您必须使用.gz或未压缩文件。
-   * **[!UICONTROL .info Receipt]：**&#x200B;指定生成传输控制([!DNL .info])文件。 [!DNL .info]文件提供了有关文件传输的元数据信息，以便合作伙伴能够验证Audience Manager是否正确处理了文件传输。 有关详细信息，请参阅用于日志文件传输的[传输控制文件](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/transfer-control-files.html?lang=zh-Hans)。
+   * **[!UICONTROL .info Receipt]：**&#x200B;指定生成传输控制([!DNL .info])文件。 [!DNL .info]文件提供了有关文件传输的元数据信息，以便合作伙伴能够验证Audience Manager是否正确处理了文件传输。 有关详细信息，请参阅用于日志文件传输的[传输控制文件](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/transfer-control-files.html?lang=en)。
    * **[!UICONTROL MD5 Checksum Receipt]：**&#x200B;指定生成[!DNL MD5]校验和回执。 [!DNL MD5]校验和回执，以便合作伙伴能够验证Audience Manager是否正确处理了完整传输。
 
 1. （视情况而定）如果您选择&#x200B;**[!UICONTROL HTTP]**，请填写以下字段：
@@ -57,5 +61,5 @@ ht-degree: 1%
 ## 删除格式 {#delete-format}
 
 1. 单击 **[!UICONTROL Formats]**。
-2. 在所需格式的![](assets/icon_delete.png)列中单击&#x200B;**[!UICONTROL Actions]**。
+2. 在所需格式的&#x200B;**[!UICONTROL Actions]**&#x200B;列中单击![](assets/icon_delete.png)。
 3. 单击&#x200B;**[!UICONTROL OK]**&#x200B;以确认删除。

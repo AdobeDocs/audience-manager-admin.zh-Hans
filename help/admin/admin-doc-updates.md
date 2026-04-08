@@ -5,10 +5,14 @@ seo-title: Documentation Updates
 title: 文档更新
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
 exl-id: 8221b4df-99c2-47d3-a2ea-186a701a2b20
-source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
+TQID: https://experienceleague.adobe.com/QQHJ9VBxkF-pMFYIvgny6JJRS38Q-3nXD1kSzWdGJxQ
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 94%
+source-wordcount: 644
+ht-degree: 88%
 
 ---
 
@@ -16,7 +20,7 @@ ht-degree: 94%
 
 按日期显示《Audience Manager 管理指南》的所有更新（内容添加、删除和更正）。
 
-有关功能发布、增强和错误修复的信息，请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)。有关[!DNL Audience Manager]文档更改，请参阅[文档更新](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=zh-Hans)。
+有关功能发布、增强和错误修复的信息，请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)。 有关[!DNL Audience Manager]文档更改，请参阅[文档更新](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en)。
 
 ## AAM 2019年文档更新 {#aam-2019-docs-updates}
 
@@ -38,16 +42,16 @@ ht-degree: 94%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="admin-servers/create-ftp-server.md#task_BF1DD0E5ECA64AEC87EACABFCAEA2C6D">创建或编辑 FTP 服务器</a> </p> </td> 
+   <td colname="col1"> <p><a href="admin-servers/create-ftp-server.md#task_BF1DD0E5ECA64AEC87EACABFCAEA2C6D"> 创建或编辑 FTP 服务器</a> </p> </td> 
    <td colname="col2"> <p>我们添加了更多有关 SFTP 服务器的 SSH 密钥身份验证的信息（步骤 5）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="admin-destination-troubleshooting.md#set-up-destinations-export">如何设置目标以导出 Experience Cloud...</a> </p> </td> 
+   <td colname="col1"> <p><a href="admin-destination-troubleshooting.md#set-up-destinations-export"> 如何设置目标以导出 Experience Cloud...</a> </p> </td> 
    <td colname="col2"> <p>本页面向您展示如何设置目标，以导出“出站数据文件”中依赖于您所需 ID 类型的数据。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="admin-servers/admin-authorize-s3-cross-bucket.md#task_20B12994C5484A9D8CC40DF6F456CBE7">操作方法：授权跨帐户 Amazon S3 存储段访问以实现批处理目标</a> </p> </td> 
-   <td colname="col2"> <p>如果您的客户不想共享 Amazon S3 访问密钥和密码密钥，则可以在 Amazon S3 中使用跨帐户存储段权限来传输出站数据文件。本文档说明了如何在 Audience Manager 管理 UI 中设置此替代方法。 </p> </td> 
+   <td colname="col1"> <p><a href="admin-servers/admin-authorize-s3-cross-bucket.md#task_20B12994C5484A9D8CC40DF6F456CBE7"> 操作方法：授权跨帐户 Amazon S3 存储段访问以实现批处理目标</a> </p> </td> 
+   <td colname="col2"> <p>如果您的客户不想共享 Amazon S3 访问密钥和密码密钥，则可以在 Amazon S3 中使用跨帐户存储段权限来传输出站数据文件。 本文档说明了如何在 Audience Manager 管理 UI 中设置此替代方法。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,12 +99,12 @@ ht-degree: 94%
    <td colname="col2"> <p>介绍每个公司容器中 AMO 同步复选框的新文档。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="companies/admin-device-graph-options.md#concept_563615F1018340C683E0EE075F8F639D"> 适用于公司的设备图选项</a> </p> </td> 
+   <td colname="col1"> <p><a href="companies/admin-device-graph-options.md#concept_563615F1018340C683E0EE075F8F639D">适用于公司的设备图选项</a> </p> </td> 
    <td colname="col2"> <p>介绍如何配置设备图选项的新文档。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421"> API 要求和建议</a> </p> </td> 
-   <td colname="col2"> <p>这是一个新文档，介绍了一些需要了解并传递给客户的要求和建议。它在具有相同标题的公共文档中有所重复，而且它针对不同的读者群进行了更改。请参阅公共文档中的 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=zh-Hans#api-requirements-recommendations" format="https" scope="external">API 要求和建议</a>。 </p> </td> 
+   <td colname="col2"> <p>这是一个新文档，介绍了一些需要了解并传递给客户的要求和建议。 它在具有相同标题的公共文档中有所重复，而且它针对不同的读者群进行了更改。 请参阅公共文档中的 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=en#api-requirements-recommendations" format="https" scope="external">API 要求和建议</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -120,7 +124,7 @@ ht-degree: 94%
    <td colname="col2">添加了出口 FTP IP <b>52.44.29.204</b>。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="companies/admin-manage-company-destinations.md#manage-company-destinations">管理公司目标</a> </p> </td> 
+   <td colname="col1"> <p><a href="companies/admin-manage-company-destinations.md#manage-company-destinations"> 管理公司目标</a> </p> </td> 
    <td colname="col2"> <p>较小的修改。 </p> </td> 
   </tr> 
   <tr> 
@@ -182,7 +186,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p>2014 年 10 月 23 日 </p> <p><a href="formats/formats.md#concept_66AA2E78A25C4973B3230D5F75B192A2"> 格式</a> </p> </td> 
-   <td colname="col2"> <p>新页面。请注意，此页面正在创建中，将在未来几天内进行更新。 </p> </td> 
+   <td colname="col2"> <p>新页面。 请注意，此页面正在创建中，将在未来几天内进行更新。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2014 年 10 月 22 日 </p> <p><a href="admin-destination-troubleshooting.md#">目标设置疑难解答</a> </p> </td> 
@@ -190,7 +194,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p>2014 年 10 月 21 日 </p> <p><a href="companies/admin-manage-company-destinations.md#manage-company-destinations"> 管理公司目标</a> </p> </td> 
-   <td colname="col2"> <p>重写了整个主题。添加了其他信息和其他设置。 </p> </td> 
+   <td colname="col2"> <p>重写了整个主题。 添加了其他信息和其他设置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2014 年 9 月 25 日 </p> <p><a href="companies/admin-manage-company-profiles.md">创建公司</a> </p> </td> 

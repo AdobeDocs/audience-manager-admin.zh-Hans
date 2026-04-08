@@ -5,9 +5,13 @@ seo-title: Destination Setup Troubleshooting
 title: 目标设置疑难解答
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 exl-id: 53c72b1a-f1a1-4266-a595-e4821c2640b2
-source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
+TQID: https://experienceleague.adobe.com/R21EJzuvrPlTAa3n92xgT74wdAKKKZxlJL8nWNn3mgA
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b82b475d-1e7d-46c6-9172-1f9c73004b11id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: 1343
 ht-degree: 3%
 
 ---
@@ -52,10 +56,10 @@ ht-degree: 3%
 * **[!DNL S3]**
    * [!DNL S3]是首选传输协议（超过[!DNL FTP]或[!DNL HTTP]）。
       * **[!UICONTROL Bucket]**
-         * 存储段名称应不带斜杠、前缀、后缀等内容列出。 如果您指定了地址[!DNL s3://your-bucket]，则只需将[!DNL your-bucket]添加到此字段即可。
+         * 存储段名称应不带斜杠、前缀、后缀等内容列出。如果您指定了地址[!DNL s3://your-bucket]，则只需将[!DNL your-bucket]添加到此字段即可。
       * **[!UICONTROL Directory]**
-         * 将此字段留空，除非为您提供了应放置数据的子目录。 如果您获得了地址[!DNL s3://your-bucket/your-subdirectory]，请在[!DNL your-bucket]字段中输入[!UICONTROL Bucket]，应将[!DNL your-subdirectory]添加到[!UICONTROL Directory]字段中。 请勿添加前面的斜杠。
-         * 如果必须沿路径浏览多个目录，则仅当使用斜杠作为分隔符时。 因此，[!DNL s3://your-bucket/your-subdirectory1/your-subdirectory2]的位置将在[!DNL your-bucket]字段中包含[!UICONTROL Bucket]，并在[!DNL your-subdirectory1/your-subdirectory2]字段中输入[!UICONTROL Directory]。
+         * 将此字段留空，除非为您提供了应放置数据的子目录。 如果您获得了地址[!DNL s3://your-bucket/your-subdirectory]，请在[!UICONTROL Bucket]字段中输入[!DNL your-bucket]，应将[!DNL your-subdirectory]添加到[!UICONTROL Directory]字段中。 请勿添加前面的斜杠。
+         * 如果必须沿路径浏览多个目录，则仅当使用斜杠作为分隔符时。 因此，[!DNL s3://your-bucket/your-subdirectory1/your-subdirectory2]的位置将在[!UICONTROL Bucket]字段中包含[!DNL your-bucket]，并在[!UICONTROL Directory]字段中输入[!DNL your-subdirectory1/your-subdirectory2]。
       * **[!UICONTROL Access / Secret Keys]**
          * 当[!DNL TechOps]创建存储段并向顾问提供访问/密钥时，这些凭据通常是要传递给客户端的`READ-ONLY`凭据。 不应将这些凭据输入到[!UICONTROL Access / Secret Key]字段中，因为这将导致传输失败（因为这些凭据是只读的，不可写入）。 在[!DNL TechOps]创建存储段并提供凭据的情况下，顾问还应请求一个Adobe密钥对 — 不提供给客户端 — 允许将文件写入此存储段。 应将该键添加到这些字段中。
 
@@ -63,18 +67,18 @@ ht-degree: 3%
    * **[!UICONTROL Domain]**
       * 请输入[!DNL HTTP]条目的前缀信息。 如果您拥有帐户[!DNL https://superduper.com]，请在此字段中输入[!DNL https://superduper.com]。
       * **[!UICONTROL URL Prefix]**
-         * 添加[!DNL URL]前缀时，将前面的斜杠保持关闭。 [!DNL https://hello.com/r/x/y/z]的地址应在[!DNL https://hello.com]字段中输入[!UICONTROL Domain]，并在[!DNL r/x/y/z]字段中在此处输入[!UICONTROL URL Prefix]。
+         * 添加[!DNL URL]前缀时，将前面的斜杠保持关闭。 [!DNL https://hello.com/r/x/y/z]的地址应在[!UICONTROL Domain]字段中输入[!DNL https://hello.com]，并在[!UICONTROL URL Prefix]字段中在此处输入[!DNL r/x/y/z]。
          * 如果不需要[!UICONTROL URL Prefix]，则将此值留空。
       * **[!UICONTROL Authentication - SSH Key]**
          * 在此框中输入完整的`SSH PRIVATE`密钥值，包括页眉、页脚和换行符，以确保加密或密钥存储准确无误。
 
 ### 没有足够的时间用于出站生成
 
-扩展流程每天运行两次，并且在将文件推送到其最终目标之前，必须运行多个流程（扩展、发布、推送到外部位置等）。 一条经验法则是，至少应在24小时之后完全配置目标，之后才能将数据推送到外部位置。
+扩展流程每天运行两次，并运行多个流程（扩展、发布、推送到外部位置等） 必须先运行，然后才能将文件推送到其最终目标。 一条经验法则是，至少应在24小时之后完全配置目标，之后才能将数据推送到外部位置。
 
 ### 文件拆分大小太大
 
-将文件出站到目标时，可以将较大的出站文件分割为文件块。 确保单个文件块不超过10 GB。 另请参阅[出站数据文件名：语法和示例](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=zh-Hans)。
+将文件出站到目标时，可以将较大的出站文件分割为文件块。 确保单个文件块不超过10 GB。 另请参阅[出站数据文件名：语法和示例](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en)。
 
 
 ## 如何设置目标以导出出站数据文件中的Experience Cloud ID、客户ID或Audience Manager ID {#set-up-destinations-export}
@@ -89,17 +93,17 @@ ht-degree: 3%
 >
 >有关在管理员UI中创建目标的详细演练，请参阅[创建或编辑公司目标](companies/admin-manage-company-destinations.md#create-edit-company-destinations)文章。
 
-您的客户希望导出不同的ID类型，具体取决于目标。 下图显示了导出与不同ID类型相关的配置文件信息时应选择的选项。 我们建议您也参阅Audience Manager中的[ID索引](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=zh-Hans)。 需要考虑三个重要设置：[!UICONTROL User ID Key]、[!UICONTROL Data Source Type]和[!UICONTROL Format]。 我们将在下面详细介绍所有这些功能。
+您的客户希望导出不同的ID类型，具体取决于目标。 下图显示了导出与不同ID类型相关的配置文件信息时应选择的选项。 我们建议您也参阅Audience Manager中的[ID索引](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en)。 需要考虑三个重要设置：[!UICONTROL User ID Key]、[!UICONTROL Data Source Type]和[!UICONTROL Format]。 我们将在下面详细介绍所有这些功能。
 
-* [!UICONTROL User ID Key]。在[!UICONTROL Admin UI]中，转到&#x200B;**[!UICONTROL Companies]**。 搜索客户的公司并单击它。 查找&#x200B;**[!UICONTROL Destinations]**&#x200B;选项卡并按&#x200B;**[!UICONTROL Add Destination]**。 在&#x200B;**[!UICONTROL Add Destination]**&#x200B;工作流中选择[!UICONTROL User ID Key]。 [!UICONTROL User ID Key]将筛选来自目标数据源的传入ID，只允许这些ID通过。
+* [!UICONTROL User ID Key]. 在[!UICONTROL Admin UI]中，转到&#x200B;**[!UICONTROL Companies]**。 搜索客户的公司并单击它。 查找&#x200B;**[!UICONTROL Destinations]**&#x200B;选项卡并按&#x200B;**[!UICONTROL Add Destination]**。 在&#x200B;**[!UICONTROL Add Destination]**&#x200B;工作流中选择[!UICONTROL User ID Key]。 [!UICONTROL User ID Key]将筛选来自目标数据源的传入ID，只允许这些ID通过。
 
   ![](assets/user_id_key.PNG)
 
-* [!UICONTROL Data Source Type]。在Audience Manager UI中创建目标时选择此选项。 首先，选择[!UICONTROL Inbound]，然后选择所需的ID类型。 选项包括：
+* [!UICONTROL Data Source Type]. 在Audience Manager UI中创建目标时选择此选项。 首先，选择[!UICONTROL Inbound]，然后选择所需的ID类型。 选项包括：
 
   ![](assets/data_source_settings.PNG)
 
-* [!UICONTROL Format]。此选项决定了要导出的文件格式。 在&#x200B;**[!UICONTROL Add Destination]**&#x200B;工作流的&#x200B;**[!UICONTROL Batch Data]**&#x200B;下，选择格式。
+* [!UICONTROL Format]. 此选项决定了要导出的文件格式。 在&#x200B;**[!UICONTROL Add Destination]**&#x200B;工作流的&#x200B;**[!UICONTROL Batch Data]**&#x200B;下，选择格式。
 
 要检查格式，请转到&#x200B;**[!UICONTROL Admin UI > Formats]**&#x200B;并查找[!UICONTROL Data Row]元素。 此元素包含文件格式为&lt;MCID>的宏，如下例所示。
 
