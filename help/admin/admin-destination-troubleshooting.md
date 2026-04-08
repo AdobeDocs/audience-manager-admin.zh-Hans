@@ -84,7 +84,7 @@ ht-degree: 3%
 
 ### 文件拆分大小太大
 
-将文件出站到目标时，可以将较大的出站文件分割为文件块。 确保单个文件块不超过10 GB。 另请参阅[出站数据文件名：语法和示例](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en)。
+将文件出站到目标时，可以将较大的出站文件分割为文件块。 确保单个文件块不超过10 GB。 另请参阅[出站数据文件名：语法和示例](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=zh-Hans)。
 
 
 ## 如何设置目标以导出出站数据文件中的Experience Cloud ID、客户ID或Audience Manager ID {#set-up-destinations-export}
@@ -99,7 +99,7 @@ ht-degree: 3%
 >
 >有关在管理员UI中创建目标的详细演练，请参阅[创建或编辑公司目标](companies/admin-manage-company-destinations.md#create-edit-company-destinations)文章。
 
-您的客户希望导出不同的ID类型，具体取决于目标。 下图显示了导出与不同ID类型相关的配置文件信息时应选择的选项。 我们建议您也参阅Audience Manager中的[ID索引](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en)。 需要考虑三个重要设置：[!UICONTROL User ID Key]、[!UICONTROL Data Source Type]和[!UICONTROL Format]。 我们将在下面详细介绍所有这些功能。
+您的客户希望导出不同的ID类型，具体取决于目标。 下图显示了导出与不同ID类型相关的配置文件信息时应选择的选项。 我们建议您也参阅Audience Manager中的[ID索引](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=zh-Hans)。 需要考虑三个重要设置：[!UICONTROL User ID Key]、[!UICONTROL Data Source Type]和[!UICONTROL Format]。 我们将在下面详细介绍所有这些功能。
 
 * [!UICONTROL User ID Key]. 在[!UICONTROL Admin UI]中，转到&#x200B;**[!UICONTROL Companies]**。 搜索客户的公司并单击它。 查找&#x200B;**[!UICONTROL Destinations]**&#x200B;选项卡并按&#x200B;**[!UICONTROL Add Destination]**。 在&#x200B;**[!UICONTROL Add Destination]**&#x200B;工作流中选择[!UICONTROL User ID Key]。 [!UICONTROL User ID Key]将筛选来自目标数据源的传入ID，只允许这些ID通过。
 

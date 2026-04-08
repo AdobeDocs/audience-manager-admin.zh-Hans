@@ -27,7 +27,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->确保您的客户阅读《Audience Manager用户指南》中的[OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth)文档。
+>确保您的客户阅读《Audience Manager用户指南》中的[OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=zh-Hans#oauth)文档。
 
 [!DNL OAuth2]是一个开放标准，用于授权代表资源所有者提供对[!DNL Audience Manager]资源的安全委派访问权限。
 

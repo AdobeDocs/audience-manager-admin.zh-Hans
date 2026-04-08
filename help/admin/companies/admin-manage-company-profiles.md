@@ -54,13 +54,13 @@ ht-degree: 2%
       * **[!UICONTROL Full AAM]**：指定公司将拥有完整的Adobe Audience Manager帐户，且用户将拥有登录访问权限。
       * **[!UICONTROL MMP]**：指定已允许公司使用[!UICONTROL Master Marketing Profile] ([!UICONTROL MMP])功能。 [!UICONTROL MMP]允许使用分配给每个访客并随后由Audience Manager使用的[!UICONTROL Experience Cloud ID] ([!DNL MCID])在Experience Cloud之间共享受众。 如果您选择此帐户类型，则也会自动选择[!UICONTROL Experience Cloud ID Service]。
 
-        有关详细信息，请参阅[Experience Cloud受众](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en)。
+        有关详细信息，请参阅[Experience Cloud受众](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=zh-Hans)。
 
    * **[!UICONTROL Data Source]**：指定该公司是Audience Manager中的第三方数据提供商。
    * **[!UICONTROL Targeting Partner]**：指定将该公司用作Audience Manager客户的定位平台。
    * **[!UICONTROL Visitor ID Service]**：指定已允许公司使用[!UICONTROL Experience Cloud Visitor ID Service]。
 
-     [!UICONTROL Experience Cloud Visitor ID Service]提供了跨Experience Cloud解决方案的通用访客ID。 有关详细信息，请参阅[Experience Cloud访客ID服务用户指南](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en)。
+     [!UICONTROL Experience Cloud Visitor ID Service]提供了跨Experience Cloud解决方案的通用访客ID。 有关详细信息，请参阅[Experience Cloud访客ID服务用户指南](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans)。
 
    * **[!UICONTROL Agency]**：指定公司将拥有[!UICONTROL Agency]帐户。
 
@@ -101,13 +101,13 @@ ht-degree: 2%
       * **[!UICONTROL MMP]**：指定已允许公司使用主营销配置文件([!UICONTROL MMP])功能。
 
         如果您选择此帐户类型，则也会自动选择&#x200B;**[!UICONTROL Visitor ID Service]**。
-有关详细信息，请参阅[Experience Cloud受众](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en)。
+有关详细信息，请参阅[Experience Cloud受众](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=zh-Hans)。
 
    * **[!UICONTROL Data Source]**：指定该公司是Audience Manager中的第三方数据提供商。
    * **[!UICONTROL Targeting Partner]**：指定将该公司用作Audience Manager客户的定位平台。
    * **[!UICONTROL Visitor ID Service]**：指定已允许该公司使用Experience Cloud访客ID服务。
 
-     Experience Cloud 访客 ID 服务可以跨多个 Experience Cloud 解决方案提供一个通用的访客 ID。 有关详细信息，请参阅[Experience Cloud ID服务用户指南](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)。
+     Experience Cloud 访客 ID 服务可以跨多个 Experience Cloud 解决方案提供一个通用的访客 ID。 有关详细信息，请参阅[Experience Cloud ID服务用户指南](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
 
    * **[!UICONTROL Agency]**：指定公司将拥有代理帐户。
    * **[!UICONTROL Features]**：选择所需的选项：

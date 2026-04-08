@@ -57,7 +57,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >如果要为合作伙伴的实时数据传输启用[OAuth 2.0身份验证](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=en)，请填写下表中的字段。 需要完全按照表中的方式填写&#x200B;*斜体*&#x200B;中的字段。
+   >如果要为合作伙伴的实时数据传输启用[OAuth 2.0身份验证](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=zh-Hans)，请填写下表中的字段。 需要完全按照表中的方式填写&#x200B;*斜体*&#x200B;中的字段。
 
    | 名称 | 值 |
    |---|---|

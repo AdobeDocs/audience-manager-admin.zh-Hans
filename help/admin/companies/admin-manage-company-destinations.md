@@ -23,7 +23,7 @@ ht-degree: 0%
 
 <!-- t_company_destinations.xml -->
 
-有关详细信息，请参阅&#x200B;*Audience Manager用户指南*&#x200B;中的[目标](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html)。
+有关详细信息，请参阅&#x200B;*Audience Manager用户指南*&#x200B;中的[目标](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=zh-Hans)。
 
 ## 创建或编辑公司目标 {#create-edit-company-destinations}
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 >
 >对于[!UICONTROL Bulk ID]目标类型，不能使用[!DNL Audience Manager] [!UICONTROL User ID]或[!DNL Adobe Experience Cloud] ID。
 
-如果您的数据源ID ([!UICONTROL DPID])未显示在下拉列表中，则必须选中[数据Source设置页面](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html)上的数据源级别的&#x200B;**[!UICONTROL Outbound]**&#x200B;复选框。
+如果您的数据源ID ([!UICONTROL DPID])未显示在下拉列表中，则必须选中[数据Source设置页面](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=zh-Hans)上的数据源级别的&#x200B;**[!UICONTROL Outbound]**&#x200B;复选框。
 
 * **[!UICONTROL Target Data Source]：**（必需）从下拉列表中选择此目标所需的数据源。 此设置允许标记出站数据，允许将出站数据摄取到客户端的单独系统中。
 * **[!UICONTROL Foreign Account ID]：**&#x200B;指定此目标的外部帐户ID。 这是收件人系统中此出站数据的标识值。

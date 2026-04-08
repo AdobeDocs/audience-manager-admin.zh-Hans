@@ -21,7 +21,7 @@ ht-degree: 33%
 
 >[!IMPORTANT]
 >
-> 此文档存储库的受众是Adobe内部员工。 如果您是Audience Manager客户，请导航到[Audience Manager指南概述](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)
+> 此文档存储库的受众是Adobe内部员工。 如果您是Audience Manager客户，请导航到[Audience Manager指南概述](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=zh-Hans)
 
 <!-- t_login.xml -->
 
