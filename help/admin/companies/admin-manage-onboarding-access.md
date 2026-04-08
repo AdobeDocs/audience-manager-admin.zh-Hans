@@ -2,9 +2,12 @@
 description: 为了防止文件和数据意外载入其他合作伙伴或客户拥有的目标数据源中，Audience Manager在合作伙伴ID (PID)与其他合作伙伴拥有的数据源之间添加了映射要求。
 title: 管理第二方数据的载入访问
 exl-id: 03bec978-dd31-41cc-a3aa-d67fbb98963c
-source-git-commit: cc04863272005964cfbf1bb2319cc0dd86863680
+TQID: https://experienceleague.adobe.com/ajdpBCvsikCo-lxT98GNrwCyc2IW-AZCg73oU18leTY
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: 293
 ht-degree: 0%
 
 ---
@@ -14,9 +17,9 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 > 此页面的受众是Adobe内部员工。 如果您是Audience Manager客户，正在请求此页面上所述的第二方数据源映射，请联系客户关怀团队或您的技术客户经理。
-> &#x200B;> 请注意，不需要为现有数据共享关系请求映射。 将数据载入属于您的PID的目标数据源时，也不需要映射。
+> 请注意，不需要为现有数据共享关系请求映射。 将数据载入属于您的PID的目标数据源时，也不需要映射。
 
-为了防止文件和数据意外载入其他合作伙伴拥有的目标数据源，Audience Manager在合作伙伴ID (PID)和其他合作伙伴拥有的数据源(DPID)之间添加了映射要求。 有关Audience Manager ID[的](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=zh-Hans)索引中PID和DPID的更多信息。
+为了防止文件和数据意外载入其他合作伙伴拥有的目标数据源，Audience Manager在合作伙伴ID (PID)和其他合作伙伴拥有的数据源(DPID)之间添加了映射要求。 有关Audience Manager ID[&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=zh-Hans)的索引中PID和DPID的更多信息。
 
 出于第二方数据共享的目的，如果Audience Manager合作伙伴或客户希望将文件摄取到他们未拥有的目标数据源中，则需要请求合作伙伴ID (PID)与该特定数据源(DPID)之间的映射。 如果缺少映射，集客数据作业将不会处理文件，并且数据也不会载入到Audience Manager中。
 

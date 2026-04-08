@@ -5,16 +5,21 @@ seo-title: OAuth2 Clients
 title: OAuth2客户端
 uuid: 3e654053-fb2f-4d8f-a53c-b5c3b8dbdaaa
 exl-id: 993eae04-02e8-4554-a6fe-cf599053bfc9
-source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
+TQID: https://experienceleague.adobe.com/8thJUCb1zoj8trr-6Zw4Uyq89KvJcw2xb8dRz8W7oVE
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: 572
 ht-degree: 1%
 
 ---
 
 # OAuth2客户端 {#oauth-clients}
 
-使用[!UICONTROL OAuth2 Clients]页面查看[!UICONTROL OAuth2]配置中[!DNL Audience Manager]客户端的列表。 只要分配了相应的用户角色，就可以编辑或删除现有客户机或创建新客户机。
+使用[!UICONTROL OAuth2 Clients]页面查看[!DNL Audience Manager]配置中[!UICONTROL OAuth2]客户端的列表。 只要分配了相应的用户角色，就可以编辑或删除现有客户机或创建新客户机。
 
 ## 概述 {#overview}
 
@@ -36,7 +41,7 @@ ht-degree: 1%
 
 <!-- t_create_edit_auth.xml -->
 
-使用Audience Manager [!UICONTROL OAuth2 Clients]工具中的[!UICONTROL Admin]页面创建新的[!UICONTROL Oauth2]客户端或编辑现有客户端。
+使用Audience Manager [!UICONTROL Admin]工具中的[!UICONTROL OAuth2 Clients]页面创建新的[!UICONTROL Oauth2]客户端或编辑现有客户端。
 
 1. 要创建新[!UICONTROL OAuth2]客户端，请单击&#x200B;**[!UICONTROL OAuth2 Clients]** > **[!UICONTROL Add OAuth2 Client]**。 要编辑现有的[!UICONTROL OAuth2]客户端，请在&#x200B;**[!UICONTROL Client ID]**&#x200B;列中单击所需的客户端。
 1. 为此[!UICONTROL OAuth2]客户端指定所需的名称。 请注意，这是仅记录的名称。
@@ -52,7 +57,7 @@ ht-degree: 1%
    * **[!UICONTROL Password]**：使用用户输入的密码对用户进行身份验证，而不是通过授权服务器进行自动验证尝试。
    * **[!UICONTROL Refresh_token]**：用于刷新过期的访问令牌很长一段时间。
 
-1. 在&#x200B;**[!UICONTROL Redirect URI]**&#x200B;框中，指定所需的[!DNL URI]。 仅当您选择&#x200B;**[!UICONTROL Implicit]**&#x200B;和&#x200B;**[!UICONTROL Authorization_code]**&#x200B;授权类型时，才会启用此选项。 **[!UICONTROL Redirect URI]**&#x200B;框允许您指定可接受[!DNL URI]值的逗号分隔值。 这是批准客户端访问[!DNL URI]后，将其重定向到的客户端用户[!DNL API]。
+1. 在&#x200B;**[!UICONTROL Redirect URI]**&#x200B;框中，指定所需的[!DNL URI]。 仅当您选择&#x200B;**[!UICONTROL Implicit]**&#x200B;和&#x200B;**[!UICONTROL Authorization_code]**&#x200B;授权类型时，才会启用此选项。 **[!UICONTROL Redirect URI]**&#x200B;框允许您指定可接受[!DNL URI]值的逗号分隔值。 这是批准客户端访问[!DNL API]后，将其重定向到的客户端用户[!DNL URI]。
 1. 为访问和刷新令牌过期指定所需的过期时间（以秒为单位）。
 
    * **[!UICONTROL Access Token Expiration Time]**：发出访问令牌后有效秒数。 可以为空以使用平台默认值（12小时）。 也可以为–1以指示访问令牌未过期。
@@ -60,7 +65,7 @@ ht-degree: 1%
 
 1. 单击 **[!UICONTROL Save]**。
 
-要删除[!UICONTROL OAuth2]客户端，请单击&#x200B;**[!UICONTROL OAuth2 Clients]**，然后在![](assets/icon_delete.png)列中单击所需客户端的&#x200B;**[!UICONTROL Actions]**。
+要删除[!UICONTROL OAuth2]客户端，请单击&#x200B;**[!UICONTROL OAuth2 Clients]**，然后在&#x200B;**[!UICONTROL Actions]**&#x200B;列中单击所需客户端的![](assets/icon_delete.png)。
 
 >[!MORELIKETHIS]
 >

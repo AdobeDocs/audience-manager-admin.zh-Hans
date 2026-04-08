@@ -5,9 +5,12 @@ seo-title: File Format Macros
 title: 文件格式宏
 uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
 exl-id: e686bc33-da3e-49a9-8c71-2bc6ca399bfb
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+TQID: https://experienceleague.adobe.com/ATzqYmfRIVDeQ3DZpbcZkCP4Jjsapw9Nfyli1QFR8-o
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: 686
 ht-degree: 1%
 
 ---
@@ -113,7 +116,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="term">数据合作伙伴唯一用户标识符</span>。 返回分配给用户/网站访客的ID(如果该ID已与<span class="keyword"> Audience Manager </span>设备ID同步)。 </p> <p>如果DPID为0，则此宏将返回<span class="keyword"> Audience Manager </span> ID，而不是您用户的ID。 </p> </td> 
+   <td colname="col2"> <p> <span class="term">数据合作伙伴唯一用户标识符</span>。 返回分配给用户/网站访客的ID（如果该ID已与<span class="keyword"> Audience Manager </span>设备ID同步）。 </p> <p>如果DPID为0，则此宏将返回<span class="keyword"> Audience Manager </span> ID，而不是您用户的ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID_LIST</code> </p> </td> 
@@ -141,11 +144,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 
-   <td colname="col2"> <p>已弃用。请勿使用。 </p> </td> 
+   <td colname="col2"> <p>已弃用。 请勿使用。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OUTPUT_ATTRIBUTE_TYPE</code> </p> </td> 
-   <td colname="col2"> <p>已弃用。请勿使用。 </p> </td> 
+   <td colname="col2"> <p>已弃用。 请勿使用。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OUTPUT_ATTRIBUTE_VALUE</code> </p> </td> 
@@ -163,11 +166,11 @@ ht-degree: 1%
    <td colname="col1"> <p> <code>SEGMENT_LIST</code> </p> </td> 
    <td colname="col2"> <p>返回列表中的区段列表。 接受以下可选变量： </p> 
     <ul id="ul_B111AA0D6C18445598A1444B8B7E9325"> 
-     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code>segmentId</code>：旧版ID。 已弃用。使用<code>sid</code>（仅限小写）。 </li> 
-     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code>csegid</code>：旧版ID。 已弃用。使用<code>sid</code>（仅限小写）。 </li> 
+     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code>segmentId</code>：旧版ID。 已弃用。 使用<code>sid</code>（仅限小写）。 </li> 
+     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code>csegid</code>：旧版ID。 已弃用。 使用<code>sid</code>（仅限小写）。 </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code>sid</code>：区段ID。 </li> 
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code>type</code>：返回<code>5</code>，该值是将数据标识为区段数据的静态硬编码值。 </li> 
-     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code>alias</code>：区段的映射。 已弃用。使用<code>sid</code>（仅限小写）。 </li> 
+     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code>alias</code>：区段的映射。 已弃用。 使用<code>sid</code>（仅限小写）。 </li> 
      <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code>lastUpdateTime</code>：指示上次实现区段时间的Unix时间戳。 </li> 
     </ul> <p>将这些变量放在宏后面的大括号中。 例如，此代码使用竖线“|”字符分隔结果： <code>&lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator="|"&gt;</code> </p> </td> 
   </tr> 
@@ -186,7 +189,7 @@ ht-degree: 1%
      <li id="li_859E1F4F21D645519F150DC512B3EB1A"> <code>type</code>：由数字ID标识的特征类型。 此变量会返回： 
       <ul id="ul_C9839266783D42CCADAAC3FEA33BE4D7"> 
        <li id="li_6996A218E3F04EC3BC70032559DD87FC"> <code>10</code>标识DPM特征（脱机，由入站作业载入）。 </li> 
-       <li id="li_831FF929BF50434C8804C13E5786DF79"> 标识基于规则的特征（实时，；通过<code>3</code> DCS <span class="wintitle">上载）的</span>。 </li> 
+       <li id="li_831FF929BF50434C8804C13E5786DF79"> 标识基于规则的特征（实时，；通过<span class="wintitle"> DCS </span>上载）的<code>3</code>。 </li> 
       </ul> </li> 
      <li id="li_E84D6BC80AEE4F10963C9882C4151ED4"> <code>traitId</code>：特征标识。 </li> 
      <li id="li_D30A849BA35248E6B9110FA3ADEFC332"> <code>lastRealized</code>：上次实现该特征的时间。 Unix时间戳。 </li> 
