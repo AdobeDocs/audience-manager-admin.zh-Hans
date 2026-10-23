@@ -8,22 +8,22 @@ exl-id: a2e73613-07cd-4ab8-8c6e-be451ed50bfc
 TQID: https://experienceleague.adobe.com/-MWpMACN0bFPIRAWejD0-VV5nG8BGAukmV1QXxXal-E
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: 1101
+source-wordcount: '1105'
 ht-degree: 0%
-
 ---
-
 # 管理公司目标 {#manage-company-destinations}
 
 创建、编辑和删除Audience Manager目标。
 
 <!-- t_company_destinations.xml -->
 
-有关详细信息，请参阅&#x200B;*Audience Manager用户指南*&#x200B;中的[目标](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=zh-Hans)。
+有关详细信息，请参阅&#x200B;*Audience Manager用户指南*&#x200B;中的[目标](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html)。
 
 ## 创建或编辑公司目标 {#create-edit-company-destinations}
 
@@ -48,13 +48,13 @@ ht-degree: 0%
 * **[!UICONTROL Name]：** （必需）指定此目标的名称。
 * **[!UICONTROL Description]：**&#x200B;指定有关此目标的描述性信息。
 * **[!UICONTROL Type]：**（必需）选择所需的目标类型：
-   * **[!UICONTROL Bulk ID]**：在不同平台之间同步ID。
-   * **[!UICONTROL Bulk Trait]**：将特征信息批量发送到不同的平台。
-   * **[!UICONTROL Bulk Segment]**：将区段信息批量发送到不同的平台。
-   * **[!UICONTROL S2S]**：使用服务器到服务器目标将实时数据和批量数据发送到不同的平台。
+  * **[!UICONTROL Bulk ID]**：在不同平台之间同步ID。
+  * **[!UICONTROL Bulk Trait]**：将特征信息批量发送到不同的平台。
+  * **[!UICONTROL Bulk Segment]**：将区段信息批量发送到不同的平台。
+  * **[!UICONTROL S2S]**：使用服务器到服务器目标将实时数据和批量数据发送到不同的平台。
 * **[!UICONTROL Auto-Fill Destination Mapping]：** （仅限[!UICONTROL S2S]）选择一个选项：
-   * **[!UICONTROL Segment ID]：**&#x200B;如果选择此设置，则目标值映射将使用[!DNL Audience Manager]区段ID填充。
-   * **[!UICONTROL Integration Code Value]：**&#x200B;如果选择此设置，则目标值映射将使用[!DNL Audience Manager]段集成代码填充。
+  * **[!UICONTROL Segment ID]：**&#x200B;如果选择此设置，则目标值映射将使用[!DNL Audience Manager]区段ID填充。
+  * **[!UICONTROL Integration Code Value]：**&#x200B;如果选择此设置，则目标值映射将使用[!DNL Audience Manager]段集成代码填充。
 * **[!UICONTROL User ID Key]：**（必需）从下拉列表中选择此目标所需的用户ID密钥。
 
 此ID用作主数据源ID。 这会确定文件中要退出的用户ID。
@@ -63,7 +63,7 @@ ht-degree: 0%
 >
 >对于[!UICONTROL Bulk ID]目标类型，不能使用[!DNL Audience Manager] [!UICONTROL User ID]或[!DNL Adobe Experience Cloud] ID。
 
-如果您的数据源ID ([!UICONTROL DPID])未显示在下拉列表中，则必须选中[数据Source设置页面](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=zh-Hans)上的数据源级别的&#x200B;**[!UICONTROL Outbound]**&#x200B;复选框。
+如果您的数据源ID ([!UICONTROL DPID])未显示在下拉列表中，则必须选中[数据Source设置页面](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html)上的数据源级别的&#x200B;**[!UICONTROL Outbound]**&#x200B;复选框。
 
 * **[!UICONTROL Target Data Source]：**（必需）从下拉列表中选择此目标所需的数据源。 此设置允许标记出站数据，允许将出站数据摄取到客户端的单独系统中。
 * **[!UICONTROL Foreign Account ID]：**&#x200B;指定此目标的外部帐户ID。 这是收件人系统中此出站数据的标识值。
@@ -85,9 +85,9 @@ ht-degree: 0%
 对于[!UICONTROL Bulk ID]、[!UICONTROL Bulk Trait]或[!UICONTROL Bulk Segment]目标，请填写以下字段：
 
 * **[!UICONTROL Protocol]**：（必需）从下拉列表中选择此目标的所需协议：
-   * **[!UICONTROL FTP]**
-   * **[!UICONTROL HTTP]**
-   * **[!UICONTROL S3]**
+  * **[!UICONTROL FTP]**
+  * **[!UICONTROL HTTP]**
+  * **[!UICONTROL S3]**
 * **[!UICONTROL Servers]**：（必需）从下拉列表中选择此目标所需的服务器。
 * **[!UICONTROL Format]**：（必需）根据以上选择的协议，从下拉列表中选择此目标的所需格式： [!DNL HTTP]或文件类型。
 * **[!UICONTROL Sync Type]**： （必需）为此目标选择所需的同步类型。 这表示客户端要包含在出站订单中的用户活动级别。 如果客户端只想从其属性分析区段资格，请选择&#x200B;**[!UICONTROL Customer]**。 如果他们想要在所有[!DNL Audience Manager]客户中包含来自站外活动的区段资格，请选择&#x200B;**[!UICONTROL Platform]**。
